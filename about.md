@@ -4,14 +4,32 @@ title: About Us
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Jekyll 사용법 (임시)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## 1. Ruby 설치
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- [설치 방법](https://jekyllrb-ko.github.io/docs/installation/windows/#jekyll-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0)
 
-[jekyll-organization]: https://github.com/jekyll
+## 2. 프로젝트 클론
+
+```bash
+$ git clone [레포주소]
+```
+
+## 3. 플러그인 설치
+
+```bash
+$ bundle install
+```
+
+## 4. 서버 실행
+
+```bash
+$ bundle exec jekyll serve
+```
+
+## 5. 프로젝트 빌드
+
+```bash
+$ bundle exec jekyll build
+```

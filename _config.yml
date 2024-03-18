@@ -36,10 +36,10 @@ compress_html:
   ignore:
     envs: all
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
+# kramdown:
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: true
 
 callouts:
   highlight:
