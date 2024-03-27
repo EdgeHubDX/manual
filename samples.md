@@ -4,11 +4,16 @@ title: _Samples
 permalink: /samples
 ---
 
+
+{: .no_toc }
 # Page Title
 
 페이지에 대한 상세 설명입니다.
 
 > 자세한 사용법은 [Just-the-Docs 공식 문서](https://just-the-docs.com/), [마크다운 사용법](https://gist.github.com/ihoneymon/652be052a0727ad59601) 를 참고해 주세요
+
+- TOC
+{:toc}
 
 ## Buttons
 

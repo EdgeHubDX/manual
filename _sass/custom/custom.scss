@@ -18,4 +18,33 @@
       font-size: 1.125rem;
     }
   }
+
+  ul#markdown-toc {
+    padding: 16px;
+    background-color: rgba(245,246,250, 0.8);
+    
+    @media screen and (min-width: 1600px) {
+      position: fixed;
+      width: 240px;
+      height: calc(100vh - 160px);
+      overflow: auto;
+      top: 80px;
+      right: 16px;
+    }
+
+    &::before {
+      content: "CONTENTS";
+      font-weight: bold;
+      display: block;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-left: 0.8em;
+    }
+
+    li::before {
+      display: none;
+    }
+  }
 }
