@@ -5,11 +5,8 @@ title: LogicFlow
 nav_order: 3
 ---
 
-<div style="border-left: 5px solid #20C997; backgroud: #868E96;">
-    <blockquote> 
-        <h1>11. LogicFlow</h1>
-    </blockquote> 
-</div>
+# LogicFlow
+
 LogicFlow는 DataWorX의 구성요소 중 하나입니다. 추가 가능한 다양한 노드(컴포넌트)를 활용하여 흐름관계로 구성하고, 이벤트 기반의 모델링을 통해 사용자가 필요로 하는 데이터 조회, 가공, 입력 등의 기능을 빠르게 구현할 수 있으며, 작성된 어플리케이션은 런타임 중 편집과 배포가 가능 하도록 되어 있습니다.
 LogicFlow는 Nodejs런타임 환경에서 구동이 가능하며, Html5지원 브라우저에서 편집기 사용이 가능합니다.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: DataWorX
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Samples
-permalink: /samples/
+title: _Samples
+permalink: /samples
 ---
 
 # Page Title

@@ -5,11 +5,8 @@ title: Overview
 nav_order: 1
 ---
 
-<div style="border-left: 5px solid #20C997; backgroud: #868E96;">
-    <blockquote> 
-        <h1>1. DataWorX 소개</h1>
-    </blockquote> 
-</div>
+# DataWorX 소개
+
 DataWorX는 IoT 시대의 도래에 따라 데이터에 대한 처리를 강화하고, IT와 OT 영역 간의 Bridge 역할을 수행하는 Web 기반의 S/W 입니다.
 DataWorX는 Microsoft 사의 Windows OS를 기반으로 하고 있으며, 시스템 구축시 넓은 확장성, 높은 신뢰성, 빠른 처리속도 및 운용의 편리성 등을 한층 강화였습니다.
 DataWorX를 통해서 OT 영역의 다양한 유형의 장비로부터 데이터를 수집/가공/저장, 현장의 다양한 요구와 로직을 적용하여 프로그래밍 하여 IT 영역의 상위 시스템에게 안정적이고 유연하게 데이터를 제공해 주는 시스템을 구축할 수 있습니다.
