@@ -9,43 +9,43 @@ nav_order: 2
 
 DataWorX S/W의 설치 및 설정 방법은 다음과 같습니다
 
-## 3.1 DataWorX 설치 및 제거
+## 1 DataWorX 설치 및 제거
 
 다음과 같은 순서로 DataWorX S/W의 설치 및 제거를 할 수 있습니다.
 
-### 3.1.1 설치
+### 1.1 설치
 
 1. Setup 프로그램을 실행하고 설치될 경로를 묻는 화면이 나타나면 경로를 입력하고 다음으로 진행합니다.  
-   ![SETUP](../../../assets/installation/installation3.1.1.1.png)
+   ![SETUP](./installation3.1.1.1.png)
 
 2. 설치를 계속하기 위해서는 라이선스에 동의해야 합니다.  
-   ![SETUP_LICENSE](../../../assets/installation/installation3.1.1.2.png)
+   ![SETUP_LICENSE](./installation3.1.1.2.png)
 
 3. 사용자 및 조직 정보를 입력합니다.  
-   ![SETUP_CUSTOMER_INFO](../../../assets/installation/installation3.1.1.3.png)
+   ![SETUP_CUSTOMER_INFO](./installation3.1.1.3.png)
 
 4. 설치 옵션을 선택합니다.  
    기본값인 Complete를 선택한 경우 전체 항목을 설치합니다.  
-   ![SETUP_COMPLETE_OPTION](../../../assets/installation/installation3.1.1.4.png)
+   ![SETUP_COMPLETE_OPTION](./installation3.1.1.4.png)
 
    Custom으로 선택한 경우 항목을 선택하여 설치할 수 있습니다.  
-   ![SETUP_CUSTOM_OPTION](../../../assets/installation/installation3.1.1.4.1.png)
+   ![SETUP_CUSTOM_OPTION](./installation3.1.1.4.1.png)
 
 5. Install 버튼을 클릭하여 설치를 진행합니다.  
-   ![SETUP_INSTALL](../../../assets/installation/installation3.1.1.5.png)
+   ![SETUP_INSTALL](./installation3.1.1.5.png)
 
 6. HASP device driver를 설치합니다.`(SW라이선스 사용시 필요X)`  
-   ![SETUP_HASP](../../../assets/installation/installation3.1.1.6.png)  
-   ![SETUP_SENTINEL](../../../assets/installation/installation3.1.1.6.2.png)  
-   ![SETUP_SENTINEL_RUNTIME](../../../assets/installation/installation3.1.1.6.3.png)
+   ![SETUP_HASP](./installation3.1.1.6.png)  
+   ![SETUP_SENTINEL](./installation3.1.1.6.2.png)  
+   ![SETUP_SENTINEL_RUNTIME](./installation3.1.1.6.3.png)
 
 7. Node.js 설치를 진행합니다.  
-   ![SETUP_NODEJS](../../../assets/installation/installation3.1.1.7.1.png)  
-   ![SETUP_NODEJS_WIZARD](../../../assets/installation/installation3.1.1.7.2.png)
+   ![SETUP_NODEJS](./installation3.1.1.7.1.png)  
+   ![SETUP_NODEJS_WIZARD](./installation3.1.1.7.2.png)
 8. 설치 완료  
-   ![SETUP_FIN](../../../assets/installation/installation3.1.1.8.png)
+   ![SETUP_FIN](./installation3.1.1.8.png)
 
-### 3.1.2 제거
+### 1.2 제거
 
 1. 제어판을 실행 후 프로그램 및 기능 메뉴로 이동합니다
 2. 앱 리스트에서 DataWorX 선택 후 제거를 실행합니다.
