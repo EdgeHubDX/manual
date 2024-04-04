@@ -5,7 +5,11 @@ title: 필드 디바이스
 nav_order: 8
 ---
 
+{: .no_toc }
 # Field Device
+
+- TOC
+{:toc}
 
 ## 1 개요  
 Field Device는 DataWorX에서 사용할 채널, 디바이스, 블록을 등록하고 관리하기 위한 메뉴입니다. 장비로부터 데이터를 수집하여 상위 프로세스로 전송하는 S/W입니다. Field Device 메뉴에서 통신채널, 디바이스, 통신블록을 추가/설정 할 수 있습니다.
