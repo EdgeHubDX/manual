@@ -5,9 +5,12 @@ title: Installation
 nav_order: 2
 ---
 
-# DataWorX 설치 및 설정
-
+{: .no_toc }
+# DataWorX 설치 및 설정  
 DataWorX S/W의 설치 및 설정 방법은 다음과 같습니다
+
+- TOC
+{:toc}
 
 ## 1 DataWorX 설치 및 제거
 
