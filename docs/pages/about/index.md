@@ -1,44 +1,18 @@
 ---
 layout: default
 parent: Pages
-title: 버전정보
+title: 버전 정보
 nav_order: 6
 ---
 
-# Page Title
+{: .no_toc }
+# 버전 정보
+DataWorX의 버전관련 정보를 확인할 수 있는 페이지입니다. 애플리케이션 바를 통해 접근 가능합니다.
 
-## 1. Test
+- TOC
+{:toc}
 
-### 1.1. Test
+![About Item](./about-item.png)
 
-## 2. Test
+![About](./about.png)
 
-### 2.1. Test
-
-### 2.2. Test
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
-
-#### 2.2.1. Heading4
