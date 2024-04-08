@@ -33,6 +33,6 @@ nav_order: 2
 ![Project State Button](./project-state-button.png)
 
 ## 4. 프로젝트 종료 버튼
-- 현재 오픈된 프로젝트를 종료할 수 있습니다.
+- 현재 오픈된 프로젝트를 종료할 수 있습니다. 프로젝트가 종료되면 프로젝트 목록 페이지로 이동합니다. 
 
 ![Project Close Button](./project-close-button.png)

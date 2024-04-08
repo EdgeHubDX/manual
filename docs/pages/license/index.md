@@ -7,7 +7,7 @@ nav_order: 3
 
 {: .no_toc }
 # 라이선스
-DataWorX 라이선스 관리를 위한 페이지입니다. 애플리케이션 바를 통해 접근 가능합니다.
+DataWorX 라이선스 관리를 위한 페이지입니다. 애플리케이션 바를 통해 이동할 수 있습니다.
 
 ![License - Item](./license-item.png)
 
