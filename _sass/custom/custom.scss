@@ -79,6 +79,48 @@
     color: violet;
   }
 
+  .text-gray {
+    color: gray;
+  }
+
+  [class^="highlight-"] {
+    color: white;
+    padding: 0 4px;
+    border-radius: 2px;
+  }
+
+  .highlight-red {
+    background-color: red;
+  }
+  
+  .highlight-orange {
+    background-color: orange;
+  }
+  
+  .highlight-yellow {
+    background-color: yellow;
+  }
+  
+  .highlight-green {
+    background-color: green;
+  }
+  
+  .highlight-blue {
+    background-color: blue;
+  }
+  
+  .highlight-navy {
+    background-color: navy;
+  }
+  
+  .highlight-violet {
+    background-color: violet;
+  }
+  
+  .highlight-gray {
+    background-color: gray;
+  }
+
   code {
     font-size: 0.82em;
     padding: 2px 4px;
