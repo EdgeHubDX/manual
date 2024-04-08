@@ -1,6 +1,7 @@
 .main-content {
   text-align: justify;
 
+  // ================================================== headings
   h1,
   h2,
   h3,
@@ -19,6 +20,7 @@
     }
   }
 
+  // ================================================== list
   ul#markdown-toc {
     padding: 16px;
     background-color: rgba(245,246,250, 0.8);
@@ -47,4 +49,53 @@
       display: none;
     }
   }
+
+  // ================================================== text
+  .text-red {
+    color: red;
+  }
+  
+  .text-orange {
+    color: orange;
+  }
+  
+  .text-yellow {
+    color: yellow;
+  }
+  
+  .text-green {
+    color: green;
+  }
+  
+  .text-blue {
+    color: blue;
+  }
+  
+  .text-navy {
+    color: navy;
+  }
+  
+  .text-violet {
+    color: violet;
+  }
+
+  code {
+    font-size: 0.82em;
+    padding: 2px 4px;
+    color: tomato;
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif;
+    font-weight: 550;
+  }
+
+  .highlight code {
+    font-weight: normal;
+  }
+
+  // ================================================== table
+  th {
+    background-color: rgba(0,0,0, 0.05);
+  }
 }
+
+
+
