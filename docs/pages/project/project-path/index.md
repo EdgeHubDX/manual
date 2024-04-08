@@ -8,7 +8,7 @@ nav_order: 3
 
 {: .no_toc }
 # 프로젝트 경로
-프로젝트 경로는 프로젝트의 목록을 불러오거나 프로젝트가 저장될 위치를 설정하기 위해 사용됩니다. 프로젝트 경로 페이지는 프로젝트 목록 페이지에서 버튼을 통해 이동할 수 있습니다.
+프로젝트 경로는 프로젝트의 목록을 불러오거나 프로젝트가 저장될 위치를 설정하기 위해 사용됩니다. 프로젝트 목록 페이지에서 `경로 설정` 버튼을 통해 해당 페이지로 이동할 수 있습니다.
 
 - TOC
 {:toc}
@@ -28,14 +28,16 @@ nav_order: 3
 ![Project Path Modal - Breadcrumbs](./project-path-modal-breadcrumbs.png)
 ![Project Path Modal - Confirm](./project-path-modal.png)
 
+## 3. 경로 수정
 
-## 3. 경로 삭제
+{: .note }
+🚧 수정 기능은 추후 지원 예정입니다. 🚧 
+
+
+## 4. 경로 삭제
 - 경로 목록의 메뉴 버튼을 클릭하면 경로를 삭제할 수 있습니다. 
 
 ![Project Path - Delete](./project-path-delete.png)
-
-{: .note }
-수정 기능은 추후 지원 예정입니다.
 
 ![Project Path - Multi Delete](./project-path-multi-delete.png)
 

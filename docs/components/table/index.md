@@ -94,6 +94,19 @@ nav_order: 7
 ![Table - Column Reorder](./table-column-reorder.png)
 
 
+### 2.4. 컬럼 헤더 필터
+- 테이블 헤더의 컬럼 별 필터에 빠르게 액세스할 수 있는 기능입니다.
+- 컬럼 헤더 필터는 초기에 숨겨져 있으며, 테이블 툴바의 메뉴 아이템을 통해 필터를 사용 여부를 설정할 수 있습니다.
+
+![Table - Column Filter - Setting](./table-column-filter-setting.png)
+
+![Table - Column Filter - On](./table-column-filter-on.png)
+
+
+{: .note }
+주기적으로 테이블의 데이터가 업데이트되는 페이지(시뮬레이터, 통신상태, 태그 모니터링)에서는 컬럼 헤더 필터의 설정을 변경할 수 없습니다.
+
+
 
 ## 3. 로우 (행)
 
