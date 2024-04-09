@@ -168,6 +168,7 @@ nav_order: 7
 | `Shift` + `Click`         | 현재 선택된 아이템을 기준으로 마우스로 클릭한 아이템까지 다중 선택할 수 있습니다. |
 | `Ctrl` + `A`              | 모든 아이템을 선택합니다. |
 | `Ctrl` + `Click`          | 클릭한 아이템만 다중 선택할 수 있습니다. |
+|`첫번째 행을 클릭` => `SHIFT + END`| 모든 아이템을 선택합니다.|
 
 ![Table - Row Multi Selection](./table-multi-selection.png)
 
