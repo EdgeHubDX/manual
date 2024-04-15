@@ -11,9 +11,9 @@ DataWork를 사용하기 위한 사용자 인증 페이지입니다. 세션이 �
 {: .note }
 최초 사용 시 슈퍼 관리자 계정 `admin` 을 통해 로그인 가능합니다.
 
-![Login](./login.png)
+![Login]({{ site.url }}/docs/pages/login/login.png)
 
 {: .note }
 화면의 사이즈가 작을 경우 아래와 같이 표시됩니다.
 
-![Login - Screen](./login-screen.png)
+![Login - Screen]({{ site.url }}/docs/pages/login/login-screen.png)

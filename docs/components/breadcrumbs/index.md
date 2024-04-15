@@ -12,10 +12,10 @@ nav_order: 6
 - TOC
 {:toc}
 
-![Breadcrumbs](./breadcrumbs.png)
+![Breadcrumbs]({{ site.url }}/docs/components/breadcrumbs/breadcrumbs.png)
 
 ## 상위 페이지
 - 상위 페이지 이름을 클릭 시 해당 페이지로 이동합니다.
 - 홈 아이콘 클릭 시 프로젝트 목록으로 이동합니다.
 
-![Breadcrumbs - Hover](./breadcrumbs-hover.png)
+![Breadcrumbs - Hover]({{ site.url }}/docs/components/breadcrumbs/breadcrumbs-hover.png)

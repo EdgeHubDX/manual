@@ -13,11 +13,11 @@ nav_order: 3
 - TOC
 {:toc}
 
-![Project Path Button](./project-path-button.png)
+![Project Path Button]({{ site.url }}/docs/pages/project/path/project-path-button.png)
 
 
 ## 경로 목록
-![Project Path](./project-path.png)
+![Project Path]({{ site.url }}/docs/pages/project/path/project-path.png)
 
 ## 경로 추가
 - 경로 목록 카드의 우측 상단의 `+` 버튼을 클릭하면 경로 추가 모달이 오픈됩니다.
@@ -25,8 +25,8 @@ nav_order: 3
 - 아래와 같이 브레드크럼을 클릭하면 이전 위치로 이동할 수 있습니다.
 - 원하는 위치를 찾은 경우 `확인` 버튼을 클릭하면 경로 목록 테이블에서 추가한 경로를 확인할 수 있습니다.
 
-![Project Path Modal - Breadcrumbs](./project-path-modal-breadcrumbs.png)
-![Project Path Modal - Confirm](./project-path-modal.png)
+![Project Path Modal - Breadcrumbs]({{ site.url }}/docs/pages/project/path/project-path-modal-breadcrumbs.png)
+![Project Path Modal - Confirm]({{ site.url }}/docs/pages/project/path/project-path-modal.png)
 
 ## 경로 수정
 
@@ -37,9 +37,9 @@ nav_order: 3
 ## 경로 삭제
 - 경로 목록의 메뉴 버튼을 클릭하면 경로를 삭제할 수 있습니다. 
 
-![Project Path - Delete](./project-path-delete.png)
+![Project Path - Delete]({{ site.url }}/docs/pages/project/path/project-path-delete.png)
 
-![Project Path - Multi Delete](./project-path-multi-delete.png)
+![Project Path - Multi Delete]({{ site.url }}/docs/pages/project/path/project-path-multi-delete.png)
 
 {: .highlight}
 `Ctrl`키와 `Shift`키를 이용해 경로를 다중 선택하여 삭제할 수 있습니다.

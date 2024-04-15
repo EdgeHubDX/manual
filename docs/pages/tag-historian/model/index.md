@@ -10,7 +10,7 @@ nav_order: 2
 # 수집모델 설정   
 DataWorX 메뉴 중, Tag Historian을 선택하면 아래와 같은 화면이 표시됩니다.  
 
-![TAGHISTORIAN](./taghistorian-1.png)
+![TAGHISTORIAN]({{ site.url }}/docs/pages/tag-historian/model/taghistorian-1.png)
 
 - TOC
 {:toc}
@@ -34,42 +34,42 @@ DataWorX 메뉴 중, Tag Historian을 선택하면 아래와 같은 화면이 �
 ## 수집모델 추가  
 1. 수집모델 추가 버튼을 클릭합니다.  
 
-    ![TAGHISTORIAN_ADD](./taghistorianadd-2.png)
+    ![TAGHISTORIAN_ADD]({{ site.url }}/docs/pages/tag-historian/model/taghistorianadd-2.png)
 
 2. 수집모델 설정정보를 입력합니다.  
 
-    ![TAGHISTORIAN_ADD_PANEL](./taghistorianadd-panel-2.png)
+    ![TAGHISTORIAN_ADD_PANEL]({{ site.url }}/docs/pages/tag-historian/model/taghistorianadd-panel-2.png)
 
 3. 확인을 누르면 수집모델이 저장됩니다.  
 
 ## 수집모델 수정
 1. 수집모델 수정은 `트리 더보기` 또는 `테이블 더보기` 또는 `Toggle Edit -> OPEN`으로 열 수 있습니다.  
 
-    ![TAGHISTORIAN_EDIT](./taghistorianedit-3.png)
+    ![TAGHISTORIAN_EDIT]({{ site.url }}/docs/pages/tag-historian/model/taghistorianedit-3.png)
 
 2. 수집모델 설정정보를 입력합니다.  
 
-    ![TAGHISTORIAN_EDIT](./taghistorianedit-panel-3.png)
+    ![TAGHISTORIAN_EDIT]({{ site.url }}/docs/pages/tag-historian/model/taghistorianedit-panel-3.png)
 
 3. 확인을 누르면 수집모델이 저장됩니다.  
 
 ## 수집모델 정보  
 1. 수집모델 정보는 `트리 더보기` 또는 `테이블 더보기` 또는 `Toggle Lock -> OPEN`으로 열 수 있습니다.  
 
-    ![TAGHISTORIAN_INFO](./taghistorianinfo-4.png)
+    ![TAGHISTORIAN_INFO]({{ site.url }}/docs/pages/tag-historian/model/taghistorianinfo-4.png)
 
 2. 수집모델 정보를 확인합니다.
 
-    ![TAGHISTORIAN_INFO_PANEL](./taghistorianinfo-panel-4.png)
+    ![TAGHISTORIAN_INFO_PANEL]({{ site.url }}/docs/pages/tag-historian/model/taghistorianinfo-panel-4.png)
 
 ## 수집모델 삭제  
 1. 수집모델 삭제는 `트리 더보기` 또는 `테이블 더보기`에서 삭제할 수 있습니다.
 
-    ![TAGHISTORIAN_DELETE](./taghistoriandelete-5.png)
+    ![TAGHISTORIAN_DELETE]({{ site.url }}/docs/pages/tag-historian/model/taghistoriandelete-5.png)
 
 2. 버튼을 클릭하면, 삭제 확인 모달이 표시됩니다.
 
-    ![TAGHISTORIAN_DELETE_PANEL](./taghistoriandelete-panel-5.png)
+    ![TAGHISTORIAN_DELETE_PANEL]({{ site.url }}/docs/pages/tag-historian/model/taghistoriandelete-panel-5.png)
 
 3. 확인을 누르면 수집모델이 삭제 됩니다.
 

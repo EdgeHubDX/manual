@@ -20,11 +20,11 @@ nav_order: 5
 2. 노드 사용  
     split 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![SPLIT](./split-30.png)
+    ![SPLIT]({{ site.url }}/docs/pages/logic-flow/sequence/split-30.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![SPLIT_EDIT](./splitedit-30.png)
+    ![SPLIT_EDIT]({{ site.url }}/docs/pages/logic-flow/sequence/splitedit-30.png)
 
     - 문자열/버퍼: 문자열 또는 문자열 버퍼의 경우 입력한 구분자(예, \n)를 사용하여 분할합니다.
     - 배열: 배열의 경우 입력한 크기값에 따라 분할을 수행합니다.
@@ -37,11 +37,11 @@ nav_order: 5
 2. 노드 사용  
     join 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![JOIN](./join-31.png)
+    ![JOIN]({{ site.url }}/docs/pages/logic-flow/sequence/join-31.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![JOIN_EDIT](./joinedit-31.png)
+    ![JOIN_EDIT]({{ site.url }}/docs/pages/logic-flow/sequence/joinedit-31.png)
 
     - 동작: 메세지의 결합에는 다음 3개의 모드를 이용할 수 있습니다.
         - 자동: split노드와 조합하여, split과 역으로 메세지를 결합하는 처리를 수행합니다.
@@ -52,7 +52,7 @@ nav_order: 5
             - 통합오브젝트 - 각 메세지의 프로퍼티를 하나의 오브젝트로 통합
     - 열의 집약: 메세지열에 대해 지정한 식을 적용하여, 하나의 메세지로 집약합니다.
     
-    ![JOIN_COLUMN](./joincolumn-31.png)
+    ![JOIN_COLUMN]({{ site.url }}/docs/pages/logic-flow/sequence/joincolumn-31.png)
 
     - 집약식  
         메세지그룹을 구성하는 각 메세지에 적용되는 JSONata식. 식의 평가결과는 다음 호출때에 집약값으로 전달합니다.
@@ -85,11 +85,11 @@ nav_order: 5
 2. 노드 사용  
     sort 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![SORT](./sort-32.png)
+    ![SORT]({{ site.url }}/docs/pages/logic-flow/sequence/sort-32.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![SORT_EDIT](./sortedit-32.png)
+    ![SORT_EDIT]({{ site.url }}/docs/pages/logic-flow/sequence/sortedit-32.png)
 
     - 대상: 정렬의 대상을 지정합니다. 기본값으로 msg.payload을 설정합니다. 수신한 메세지가 msg.parts프로퍼티를 갖고있는 것을 상정하고 있습니다. split노드로 이 프로퍼티를 생성할 수 있지만, 독자적으로 생성해도 무관합니다. parts프로퍼티는 아래의 프로퍼티를 포함합니다.
         - id - 메세지 그룹의 식별자
@@ -102,7 +102,7 @@ nav_order: 5
                 [200, 250, 216, 220]
             ```
             
-            ![SORT_ARR_OUTPUT](./sortarroutput-32.png)
+            ![SORT_ARR_OUTPUT]({{ site.url }}/docs/pages/logic-flow/sequence/sortarroutput-32.png)
 
         - JSONata: 대상 객체의 특정 프로퍼티를 정렬키로 설정할 수 있습니다.  
             예) 입력 객체  
@@ -136,11 +136,11 @@ nav_order: 5
             ```
         - 정렬 키 설정
                     
-        ![SORT_KEY](./sortkey-32.png)
+        ![SORT_KEY]({{ site.url }}/docs/pages/logic-flow/sequence/sortkey-32.png)
 
         - 출력결과
 
-        ![SORT_OBJ_OUTPUT](./sortobjoutput-32.png)
+        ![SORT_OBJ_OUTPUT]({{ site.url }}/docs/pages/logic-flow/sequence/sortobjoutput-32.png)
 
         - 순서: 아래의 정렬순서를 지정할 수 있습니다.
             - 오름차순
@@ -153,11 +153,11 @@ nav_order: 5
 2. 노드 사용  
     batch 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![BATCH](./batch-33.png)
+    ![BATCH]({{ site.url }}/docs/pages/logic-flow/sequence/batch-33.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![BATCH_EDIT](./batchedit-33.png)
+    ![BATCH_EDIT]({{ site.url }}/docs/pages/logic-flow/sequence/batchedit-33.png)
 
     - 모드: 메시지 시퀀스를 생성하는 세 가지 모드가 있습니다.
         - 메시지 수

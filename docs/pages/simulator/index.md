@@ -11,4 +11,4 @@ DataWorX에 장비가 실제로 연결 되어 있지 않아도 시뮬레이터 �
 
 자세한 내용은 하위 페이지를 참고 바랍니다.
 
-![SIMULATOR](./simulator.png)
+![SIMULATOR]({{ site.url }}/docs/pages/simulator/simulator.png)

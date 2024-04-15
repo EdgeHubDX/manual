@@ -12,13 +12,13 @@ nav_order: 7
 - TOC
 {:toc}
 
-![Table](./table.png)
+![Table]({{ site.url }}/docs/components/table/table.png)
 
 
 ## 툴바
 - 테이블을 관리하고 조작할 수 있는 도구 모음입니다.
 
-![Table - Toolbar](./table-toolbar.png)
+![Table - Toolbar]({{ site.url }}/docs/components/table/table-toolbar.png)
 
 {: .note }
 아이템이 다중 선택된 경우 툴바의 기능을 사용할 수 없습니다.
@@ -27,19 +27,19 @@ nav_order: 7
 ### COLUMNS
 - 컬럼을 숨기거나 나타나게 할 수 있습니다. 
 
-![Table - Toolbar - Column](./table-toolbar-column.png)
+![Table - Toolbar - Column]({{ site.url }}/docs/components/table/table-toolbar-column.png)
 
 
 ### FILTERS
 - 컬럼의 특정 조건에 따라 데이터를 필터링 할 수 있습니다. 
 
-![Table - Toolbar - Filter](./table-toolbar-filter.png)
+![Table - Toolbar - Filter]({{ site.url }}/docs/components/table/table-toolbar-filter.png)
 
 
 ### DENSITY
 - 로우의 높이를 조절할 수 있습니다.
 
-![Table - Toolbar - Density](./table-toolbar-density.png)
+![Table - Toolbar - Density]({{ site.url }}/docs/components/table/table-toolbar-density.png)
 
 
 ### 잠금 기능
@@ -47,21 +47,21 @@ nav_order: 7
 - Lock: 아이템의 정보를 나타냅니다.
 - Edit: 아이템의 속성을 수정할 수 있습니다.
 
-![Table - Toolbar - Lock](./table-toolbar-lock.png)
-![Table - Toolbar - Edit](./table-toolbar-edit.png)
+![Table - Toolbar - Lock]({{ site.url }}/docs/components/table/table-toolbar-lock.png)
+![Table - Toolbar - Edit]({{ site.url }}/docs/components/table/table-toolbar-edit.png)
 
 
 ### 검색필드
 - 테이블의 데이터를 검색어에 따라 필터링합니다.
 
-![Table - Toolbar - Search](./table-toolbar-search.png)
+![Table - Toolbar - Search]({{ site.url }}/docs/components/table/table-toolbar-search.png)
 
 
 ### 메뉴
 - 컬럼 헤더 필터의 사용 여부를 설정할 수 있습니다.
 - 각 페이지마다 메뉴의 아이템은 상이할 수 있습니다.
 
-![Table - Toolbar - Menu](./table-toolbar-menu.png)
+![Table - Toolbar - Menu]({{ site.url }}/docs/components/table/table-toolbar-menu.png)
 
 
 ### 기타 아이템
@@ -77,30 +77,30 @@ nav_order: 7
 - Filter: 해당 컬럼에 특정 조건을 설정하고 데이터를 필터링 할 수 있습니다. 
 - Column: 해당 컬럼을 숨기거나 나타나게 할 수 있습니다. 
 
-![Table - Column Menu](./table-column-menu.png)
+![Table - Column Menu]({{ site.url }}/docs/components/table/table-column-menu.png)
 
 
 ### 리사이징
 - 컬럼의 길이를 조정할 수 있습니다.
 - 컬럼 사이의 바를 클릭한 후 원하는 길이만큼 드래그하면 길이가 조정됩니다.
 
-![Table - Column Resizing](./table-column-resizing.png)
+![Table - Column Resizing]({{ site.url }}/docs/components/table/table-column-resizing.png)
 
 
 ### 컬럼 순서 변경
 - 컬럼을 원하는 순서대로 변경할 수 있습니다.
 - 순서를 변경하고 싶은 컬럼의 이름을 클릭한 뒤 원하는 컬럼 위치로 드래그하면 순서가 변경됩니다.
 
-![Table - Column Reorder](./table-column-reorder.png)
+![Table - Column Reorder]({{ site.url }}/docs/components/table/table-column-reorder.png)
 
 
 ### 컬럼 헤더 필터
 - 테이블 헤더의 컬럼 별 필터에 빠르게 액세스할 수 있는 기능입니다.
 - 컬럼 헤더 필터는 초기에 숨겨져 있으며, 테이블 툴바의 메뉴 아이템을 통해 필터를 사용 여부를 설정할 수 있습니다.
 
-![Table - Column Filter - Setting](./table-column-filter-setting.png)
+![Table - Column Filter - Setting]({{ site.url }}/docs/components/table/table-column-filter-setting.png)
 
-![Table - Column Filter - On](./table-column-filter-on.png)
+![Table - Column Filter - On]({{ site.url }}/docs/components/table/table-column-filter-on.png)
 
 
 {: .note }
@@ -113,19 +113,19 @@ nav_order: 7
 ### 열 정렬
 - 데이터를 오름차순(ASC) 또는 내림차순(DESC)으로 정렬할 수 있습니다. 
 
-![Table - Sorting](./table-sorting.png)
+![Table - Sorting]({{ site.url }}/docs/components/table/table-sorting.png)
 
 {: .highlight }
 `Ctrl`키를 누른 후 다른 컬럼의 정렬 아이콘을 클릭하면 여러개의 컬럼을 기준으로 정렬할 수 있습니다. 
 
-![Table - Multi Sorting](./table-multi-sorting.png)
+![Table - Multi Sorting]({{ site.url }}/docs/components/table/table-multi-sorting.png)
 
 
 ### 우측 패널 오픈
 - 로우에 마우스를 올리면 우측 패널을 오픈하는 버튼이 보입니다.
 - 오픈 버튼을 클릭하면 우측 패널을 통해 해당 아이템의 속성 정보를 확인할 수 있습니다.
 
-![Table - Row Detail](./table-detail.png)
+![Table - Row Detail]({{ site.url }}/docs/components/table/table-detail.png)
 
 {: .note }
 페이지의 특성에 따라 선택적으로 사용할 수 있는 기능입니다.
@@ -134,12 +134,12 @@ nav_order: 7
 ### 하위 아이템 목록
 - 아이템이 하위 아이템을 가진 경우 해당 목록 페이지로 이동할 수 있습니다.
 
-![Table - Row Naviting](./table-title-cell.png)
+![Table - Row Naviting]({{ site.url }}/docs/components/table/table-title-cell.png)
 
 ### 로우 메뉴
 - 아이템을 수정/삭제/복제 하거나 하위 아이템을 추가할 수 있습니다.
 
-![Table - Row Menu](./table-row-menu.png)
+![Table - Row Menu]({{ site.url }}/docs/components/table/table-row-menu.png)
 
 {: .note }
 페이지의 특성에 따라 선택적으로 사용할 수 있는 기능입니다.
@@ -156,7 +156,7 @@ nav_order: 7
 - 로우를 클릭하면 해당 아이템을 선택할 수 있습니다.
 - `Ctrl` 키를 누르면서 선택된 아이템을 클릭하면 선택이 해제됩니다. 
 
-![Table - Row Selection](./table-selection.png)
+![Table - Row Selection]({{ site.url }}/docs/components/table/table-selection.png)
 
 
 ### 아이템 다중 선택
@@ -170,7 +170,7 @@ nav_order: 7
 | `Ctrl` + `Click`          | 클릭한 아이템만 다중 선택할 수 있습니다. |
 |`첫번째 행을 클릭` => `SHIFT + END`| 모든 아이템을 선택합니다.|
 
-![Table - Row Multi Selection](./table-multi-selection.png)
+![Table - Row Multi Selection]({{ site.url }}/docs/components/table/table-multi-selection.png)
 
 {: .note }
 다중 선택 기능 사용 시 툴바에 있던 기본 기능을 사용 불가하며, 다중 선택을 위한 아이템이 테이블 좌측 상단에 표시됩니다.

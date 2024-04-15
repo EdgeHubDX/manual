@@ -13,12 +13,12 @@ DataWorX 내 활동 로그를 확인할 수 있는 페이지입니다.
 - TOC
 {:toc}
 
-![Project Log - Nav.](./project-log-nav.png)
+![Project Log - Nav.]({{ site.url }}/docs/pages/project/log/project-log-nav.png)
 
 ## 로그 목록
 - 페이지 진입 시 날짜 범위는 오늘로 설정됩니다. 
 
-![Project Log](./project-log.png)
+![Project Log]({{ site.url }}/docs/pages/project/log/project-log.png)
 
 
 ## 로그 기간 지정
@@ -38,4 +38,4 @@ DataWorX 내 활동 로그를 확인할 수 있는 페이지입니다.
 {: .note }
 미래의 날짜는 선택 불가하며, 시작날짜가 종료날짜보다 미래일 수 없습니다.
 
-![Project Log - Date Range Picker](./project-log-date-range.png)
+![Project Log - Date Range Picker]({{ site.url }}/docs/pages/project/log/project-log-date-range.png)

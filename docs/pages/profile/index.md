@@ -12,7 +12,7 @@ nav_order: 2
 - TOC
 {:toc}
 
-![Profile - Item](./profile-item.png)
+![Profile - Item]({{ site.url }}/docs/pages/profile/profile-item.png)
 
 
 ## 사용자 정보
@@ -21,11 +21,11 @@ nav_order: 2
 {: .note }
 아이디와 권한은 변경할 수 없습니다.
 
-![Profile](./profile.png)
+![Profile]({{ site.url }}/docs/pages/profile/profile.png)
 
 
 ## 비밀번호 설정
 - 프로필 카드 하단 우측에 `비밀번호 설정` 버튼을 클릭한 후 오픈된 비밀번호 설정 모달을 통해 비밀번호를 수정할 수 있습니다. 
 
-![Profile - Password](./profile-password.png)
+![Profile - Password]({{ site.url }}/docs/pages/profile/profile-password.png)
 

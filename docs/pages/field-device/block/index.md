@@ -23,7 +23,7 @@ nav_order: 3
 1. 왼쪽 Naviagation Tree에서 `FIELD DEVICES`을 누릅니다.
 2. 왼쪽 Sub Navigation Tree에서 원하는 `디바이스명'을 누릅니다.
 
-![BLOCK_LIST](./block-list-1.png)
+![BLOCK_LIST]({{ site.url }}/docs/pages/field-device/block/block-list-1.png)
 
 - TOC
 {:toc}
@@ -37,11 +37,11 @@ nav_order: 3
 
     2. 왼쪽트리의 디바이스명 더보기에서 블록을 추가합니다.
 
-    ![BLOCK_ADD](./block-add-1.png)
+    ![BLOCK_ADD]({{ site.url }}/docs/pages/field-device/block/block-add-1.png)
 
 2. 블록명과 필요한 데이터를 입력하고 확인 버튼을 눌러 블록을 추가합니다.
 
-    ![BLOCK_ADD_DETAIL](./block-add-detail-1.png)
+    ![BLOCK_ADD_DETAIL]({{ site.url }}/docs/pages/field-device/block/block-add-detail-1.png)
 
     {: .note }
     Enable 토글을 OFF한 경우에는, 블록이 데이터를 수집 하지 않습니다.
@@ -52,7 +52,7 @@ nav_order: 3
 
     1. 테이블 상단의 Toolbar 위치의 Toggle 버튼을 이용할 수 있습니다.
 
-        ![BLOCK_TOGGLE](./blockedit-toggle-2.png)
+        ![BLOCK_TOGGLE]({{ site.url }}/docs/pages/field-device/block/blockedit-toggle-2.png)
 
         1. Toggle 버튼을 `Edit`으로 변경  
 
@@ -60,19 +60,19 @@ nav_order: 3
 
     2. 테이블 행 맨 오른쪽의, 더보기 버튼을 클릭하여 `블록 수정`을 누릅니다.
 
-        ![BLOCK_MORE](./blockedit-more-2.png)
+        ![BLOCK_MORE]({{ site.url }}/docs/pages/field-device/block/blockedit-more-2.png)
 
 
 2. 블록의 Basic(기본정보)/Detail(상세정보)를 수정 후, 확인 버튼을 눌러 수정 내용을 저장합니다.
 
-    ![BLOCK_EDIT_DETAIL](./blockedit-detail-2.png)
+    ![BLOCK_EDIT_DETAIL]({{ site.url }}/docs/pages/field-device/block/blockedit-detail-2.png)
 
 ## 블록 정보
 
 1. 블록 정보화면을 열어 블록 정보를 확인할 수 있습니다. 여는방법은 2가지가 있습니다.
     1. 테이블 상단의 Toolbar 위치의 Toggle 버튼을 이용할 수 있습니다.
 
-        ![BLOCK_TOGGLE](./blockinfo-toggle-3.png)
+        ![BLOCK_TOGGLE]({{ site.url }}/docs/pages/field-device/block/blockinfo-toggle-3.png)
 
         1. Toggle 버튼을 `Lock`으로 변경  
 
@@ -80,11 +80,11 @@ nav_order: 3
 
     2. 테이블 행 맨 오른쪽의, 더보기 버튼을 클릭하여 `블록 정보`를 누릅니다.
 
-        ![BLOCK_MORE](./blockinfo-more-3.png)
+        ![BLOCK_MORE]({{ site.url }}/docs/pages/field-device/block/blockinfo-more-3.png)
 
 2. 블록의 Basic(기본정보)/Detail(상세정보)를 확인할 수 있습니다.
 
-    ![BLOCK_DETAIL](./blockinfo-detail-3.png)
+    ![BLOCK_DETAIL]({{ site.url }}/docs/pages/field-device/block/blockinfo-detail-3.png)
 
 ## 블록 삭제
 
@@ -92,11 +92,11 @@ nav_order: 3
 
     1. 테이블 행 맨 오른쪽의, 더보기 버튼을 클릭하여 `블록 삭제`를 누릅니다.
 
-        ![BLOCK_MORE](./blockdelete-more-4.png)
+        ![BLOCK_MORE]({{ site.url }}/docs/pages/field-device/block/blockdelete-more-4.png)
 
     2. 다중삭제의 경우 테이블 리스트를 복수개 선택하여 사용 가능합니다.
 
-        ![BLOCK_LIST](./blockdelete-list-4.png)
+        ![BLOCK_LIST]({{ site.url }}/docs/pages/field-device/block/blockdelete-list-4.png)
 
         1. 테이블 행을 클릭하여 다중 선택을 합니다.
 
@@ -109,4 +109,4 @@ nav_order: 3
 
 2. Delete Blocks 모달의 확인버튼을 클릭하면, 삭제가 완료됩니다.
 
-    ![BLOCK_MODAL](./blockdelete-modal-4.png)
+    ![BLOCK_MODAL]({{ site.url }}/docs/pages/field-device/block/blockdelete-modal-4.png)

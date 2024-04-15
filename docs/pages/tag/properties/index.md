@@ -30,7 +30,7 @@ nav_order: 3
 태그는 여러 속성을 가지고 있으며, 각 속성에 따라서 정의할 수 있는 항목이 한정되어 있습니다. 본 항목에서는 태그의 구분별 속성을 분류하고, 각 속성의 의미를 정의하였습니다.
 아래 그림은 태그 속성창의 한 예 입니다.
 
-![TAG_EXAMPLE](./tagexample-1.png)
+![TAG_EXAMPLE]({{ site.url }}/docs/pages/tag/properties/tagexample-1.png)
 
 {: .highlight }
 ✅ **1.Size 버튼**: 사이즈 조절 버튼을 통하여, 태그 설정창 크기를 조절할 수 있습니다.  

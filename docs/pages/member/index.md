@@ -12,7 +12,7 @@ DataWorX 사용자 관리를 위한 페이지입니다. 애플리케이션 바�
 {: .note }
 해당 페이지는 관리자 권한만 사용 가능합니다.
 
-![Member - Item](./member-item.png)
+![Member - Item]({{ site.url }}/docs/pages/member/member-item.png)
 
 - TOC
 {:toc}
@@ -21,7 +21,7 @@ DataWorX 사용자 관리를 위한 페이지입니다. 애플리케이션 바�
 ## 사용자 목록
 - 현재 DataWorX에 추가된 사용자 목록을 확인할 수 있습니다.
 
-![Member](./member.png)
+![Member]({{ site.url }}/docs/pages/member/member.png)
 
 
 ## 사용자 추가
@@ -35,35 +35,35 @@ DataWorX 사용자 관리를 위한 페이지입니다. 애플리케이션 바�
 | Engineer | Admin 권한에서 사용자 관리, 라이선스 관리를 제외한 모든 권한이 주어집니다. |
 | Operator | 프로젝트를 감시할 수 있습니다. |
 
-![Member - Add](./member-add.png)
+![Member - Add]({{ site.url }}/docs/pages/member/member-add.png)
 
 
 ## 사용자 정보 수정
 - 사용자 목록의 메뉴 버튼을 클릭하면 수정 페이지로 이동할 수 있습니다. 
 
-![Member - Edit Item](./member-edit-item.png)
+![Member - Edit Item]({{ site.url }}/docs/pages/member/member-edit-item.png)
 
 {: .note }
 아이디는 변경할 수 없습니다.
 
-![Member - Edit](./member-edit.png)
+![Member - Edit]({{ site.url }}/docs/pages/member/member-edit.png)
 
 
 ## 비밀번호 설정
 - 사용자 정보 카드 하단 우측에 `비밀번호 설정` 버튼을 클릭한 후 오픈된 비밀번호 설정 모달을 통해 비밀번호를 수정할 수 있습니다. 
 
-![Member - Password](./member-password.png)
+![Member - Password]({{ site.url }}/docs/pages/member/member-password.png)
 
 
 ## 사용자 삭제
 - 사용자 목록의 메뉴 버튼을 클릭하면 사용자를 삭제할 수 있습니다. 
 
-![Member - Delete](./member-delete.png)
+![Member - Delete]({{ site.url }}/docs/pages/member/member-delete.png)
 
 {: .note }
 최초 관리자 `admin`은 삭제할 수 없습니다.
 
-![Member - Multi Delete](./member-multi-delete.png)
+![Member - Multi Delete]({{ site.url }}/docs/pages/member/member-multi-delete.png)
 
 {: .highlight}
 `Ctrl`키와 `Shift`키를 이용해 사용자를 다중 선택하여 삭제할 수 있습니다.

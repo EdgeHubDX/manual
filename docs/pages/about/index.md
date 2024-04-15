@@ -12,7 +12,7 @@ DataWorX의 버전관련 정보를 확인할 수 있는 페이지입니다. 애�
 - TOC
 {:toc}
 
-![About Item](./about-item.png)
+![About Item]({{ site.url }}/docs/pages/about/about-item.png)
 
-![About](./about.png)
+![About]({{ site.url }}/docs/pages/about/about.png)
 

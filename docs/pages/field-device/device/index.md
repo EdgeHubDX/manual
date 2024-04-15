@@ -16,7 +16,7 @@ nav_order: 2
 2. 왼쪽 Sub Navigation Tree에서 원하는 `채널명'을 누릅니다.
 3. Field Deivce 내에서 이동은, Bradcrumbs의 `채널명`을 클릭하면, 해당 채널의 디바이스 목록으로 이동됩니다.
 
-![DEVICE_LIST](./devicelist-1.png)
+![DEVICE_LIST]({{ site.url }}/docs/pages/field-device/device/devicelist-1.png)
 
 - TOC
 {:toc}
@@ -30,11 +30,11 @@ nav_order: 2
 
     2. 왼쪽트리의 채널명 더보기에서 디바이스를 추가합니다.
 
-    ![DEVICE_ADD](./deviceadd-1.png)
+    ![DEVICE_ADD]({{ site.url }}/docs/pages/field-device/device/deviceadd-1.png)
 
 2. 디바이스명과 필요한 데이터를 입력하고 확인 버튼을 눌러 디바이스를 추가합니다.
 
-    ![DEVICE_ADD_DETAIL](./deviceadd-detail-1.png)
+    ![DEVICE_ADD_DETAIL]({{ site.url }}/docs/pages/field-device/device/deviceadd-detail-1.png)
 
     {: .note }
     Enable 토글을 OFF한 경우에는, 디바이스가 수집을 하지 않습니다.
@@ -46,7 +46,7 @@ nav_order: 2
 
     1. 테이블 상단의 Toolbar 위치의 Toggle 버튼을 이용할 수 있습니다.
 
-        ![DEVICE_TOGGLE](./deviceedit-toggle-2.png)
+        ![DEVICE_TOGGLE]({{ site.url }}/docs/pages/field-device/device/deviceedit-toggle-2.png)
 
         1. Toggle 버튼을 `Edit`으로 변경  
 
@@ -54,22 +54,22 @@ nav_order: 2
 
     2. 테이블 행 맨 오른쪽의, 더보기 버튼을 클릭하여 `디바이스 수정`을 누릅니다.
 
-        ![DEVICE_MORE](./deviceedit-more-2.png)
+        ![DEVICE_MORE]({{ site.url }}/docs/pages/field-device/device/deviceedit-more-2.png)
 
     3. Field Device Tree의 디바이스명 오른편의 `더보기` > `디바이스 수정`을 이용할 수 있습니다.
 
-        ![DEVICE_TREE](./deviceedit-tree-2.png)
+        ![DEVICE_TREE]({{ site.url }}/docs/pages/field-device/device/deviceedit-tree-2.png)
 
 2. 디바이스의 Basic(기본정보)/Detail(상세정보)를 수정 후, 확인 버튼을 눌러 수정 내용을 저장합니다.
 
-    ![DEVICE_EDIT_DETAIL](./deviceedit-detail-2.png)
+    ![DEVICE_EDIT_DETAIL]({{ site.url }}/docs/pages/field-device/device/deviceedit-detail-2.png)
 
 ## 디바이스 정보
 
 1. 디바이스 정보화면을 열어 디바이스 정보를 확인할 수 있습니다. 디바이스 정보를 여는방법은 3가지가 있습니다.
     1. 테이블 상단의 Toolbar 위치의 Toggle 버튼을 이용할 수 있습니다.
 
-        ![DEVICE_TOGGLE](./deviceinfo-toggle-3.png)
+        ![DEVICE_TOGGLE]({{ site.url }}/docs/pages/field-device/device/deviceinfo-toggle-3.png)
 
         1. Toggle 버튼을 `Lock`으로 변경  
 
@@ -77,15 +77,15 @@ nav_order: 2
 
     2. 테이블 행 맨 오른쪽의, 더보기 버튼을 클릭하여 `디바이스 정보`를 누릅니다.
 
-        ![DEVICE_MORE](./deviceinfo-more-3.png)
+        ![DEVICE_MORE]({{ site.url }}/docs/pages/field-device/device/deviceinfo-more-3.png)
 
     3. Field Device Tree의 디바이스명 오른편의 `더보기` > `디바이스 정보`를 이용할 수 있습니다.
 
-        ![DEVICE_TREE](./deviceinfo-tree-3.png)
+        ![DEVICE_TREE]({{ site.url }}/docs/pages/field-device/device/deviceinfo-tree-3.png)
 
 2. 디바이스의 Basic(기본정보)/Detail(상세정보)를 확인할 수 있습니다.
 
-    ![DEVICE_DETAIL](./deviceinfo-detail-3.png)
+    ![DEVICE_DETAIL]({{ site.url }}/docs/pages/field-device/device/deviceinfo-detail-3.png)
 
 ## 디바이스 삭제
 
@@ -93,15 +93,15 @@ nav_order: 2
 
     1. 테이블 행 맨 오른쪽의, 더보기 버튼을 클릭하여 `디바이스 삭제`를 누릅니다.
 
-        ![DEVICE_MORE](./devicedelete-more-4.png)
+        ![DEVICE_MORE]({{ site.url }}/docs/pages/field-device/device/devicedelete-more-4.png)
 
     2. Field Device Tree의 디바이스명 오른편의 `더보기` > `디바이스 삭제`을 이용할 수 있습니다.
 
-        ![DEVICE_TREE](./devicedelete-tree-4.png)
+        ![DEVICE_TREE]({{ site.url }}/docs/pages/field-device/device/devicedelete-tree-4.png)
 
     3. 다중삭제의 경우 테이블 리스트를 복수개 선택하여 사용 가능합니다.
 
-        ![DEVICE_LIST](./devicedelete-list-4.png)
+        ![DEVICE_LIST]({{ site.url }}/docs/pages/field-device/device/devicedelete-list-4.png)
 
         1. 테이블 행을 클릭하여 다중 선택을 합니다.
 
@@ -114,4 +114,4 @@ nav_order: 2
 
 2. Delete Devices 모달의 확인버튼을 클릭하면, 삭제가 완료됩니다.
 
-    ![DEVICE_MODAL](./devicedelete-detail-4.png)
+    ![DEVICE_MODAL]({{ site.url }}/docs/pages/field-device/device/devicedelete-detail-4.png)
