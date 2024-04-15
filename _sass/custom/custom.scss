@@ -1,4 +1,4 @@
-.main-content {
+.main-content, .pdf-page-content {
   text-align: justify;
 
   // ================================================== headings
@@ -22,6 +22,7 @@
 
   // ================================================== list
   ul#markdown-toc {
+    list-style-type: none;
     padding: 16px;
     background-color: rgba(245,246,250, 0.8);
     
@@ -42,6 +43,7 @@
     }
 
     ul {
+      list-style-type: none;
       padding-left: 0.8em;
     }
 
@@ -146,7 +148,6 @@
 .pdf {
   // 210 : 297
   width: 740px;
-  height: 1078px;
   margin: 0 auto;
   padding: 16px;
 
@@ -194,7 +195,7 @@
 
 .pdf-copyright {
   text-align: center;
-  color: gray;
+  color: lightgray;
   font-size: 14px;
   margin-top: 80px;
 }
@@ -204,4 +205,87 @@
   top: 24px;
   left: 24px;
 }
+// ---
+
+// --- toc
+#pdf-toc {
+  ul {
+    padding-left: 18px;
+    list-style-type: none;
+  }
+
+  .first-level-list+.first-level-list {
+    margin-top: 16px;
+  }
+  
+  .second-level, .third-level {
+    margin-bottom: 16px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  // h1 {
+  //   font-size: 40px !important;
+  //   font-weight: bold;
+  //   text-align: center;
+  //   color: rgba(0,0,0, 0.7);
+  // }
+}
+
+.go-to-toc {
+  position: absolute;
+  right: 8px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+// ---
+
+// --- page
+.pdf-page-title {
+  font-weight: bold;
+  margin-bottom: 0;
+  
+  &.first-level {
+    // background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 48px;
+    font-size: 48px !important;
+  }
+  
+  &.second-level {
+    // background-color: rgba(255, 165, 0, 0.05);
+    margin-top: 40px;
+    font-size: 40px !important;
+  }
+  
+  &.third-level {
+    // background-color: rgba(255, 255, 0, 0.05);
+    margin-top: 32px;
+    font-size: 32px !important;
+  }
+}
+
+.pdf-page-break {
+  page-break-before: always;
+}
+
+.pdf-page-content {
+  >h1 {
+    display: none;
+  }
+
+  ul#markdown-toc {
+    padding: 32px;
+    @media screen and (min-width: 1600px) {
+      position: static;
+      width: 100%;
+      height: fit-content;
+      overflow: visible;
+    }
+  }
+
+}
+
 // ---

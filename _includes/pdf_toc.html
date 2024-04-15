@@ -1,0 +1,61 @@
+{%- include pdf_sorted_pages.html -%}
+
+{%- assign first_level_pages = sorted_pages
+  | where_exp: "item", "item.parent == nil" -%}
+{%- assign second_level_pages = sorted_pages
+  | where_exp: "item", "item.parent != nil"
+  | where_exp: "item", "item.grand_parent == nil" -%}
+{%- assign third_level_pages = sorted_pages
+  | where_exp: "item", "item.grand_parent != nil" -%}
+
+
+<nav id="pdf-toc">
+  <h1>목차</h1>
+  <ul class="first-level">
+    {%- for node in first_level_pages -%}
+      {%- assign node_index = forloop.index -%}
+      <!-- FIRST LEVEL -->
+      {%- if node.title != nil -%}
+      <li class="first-level-list">
+        <a href="#page_{{ node_index }}">
+          {{ node_index }}. {{ node.title }}
+        </a>
+  
+        <!-- SECONDARY LEVEL -->
+        {%- if node.has_children -%}
+          {%- assign children_list = second_level_pages
+            | where: "parent", node.title -%}
+          <ul class="second-level">
+            {%- for child in children_list -%}
+              {%- assign child_index = forloop.index -%}
+              <li class="second-level-list">
+                <a href="#page_{{ node_index }}_{{ child_index }}">
+                  {{ node_index }}.{{ child_index }}. {{ child.title }}
+                </a>
+              </li>
+  
+              <!-- THIRD LEVEL -->
+              {%- if child.has_children -%}
+                {%- assign grand_children_list = third_level_pages
+                  | where: "parent", child.title
+                  | where: "grand_parent", node.title -%}
+                <ul class="third-level">
+                {%- for grand_child in grand_children_list -%}
+                  {%- assign grand_child_index = forloop.index -%}
+                  <li class="third-level-list">
+                    <a href="#page_{{ node_index }}_{{ child_index }}_{{ grand_child_index }}">
+                      {{ node_index }}.{{ child_index }}.{{ grand_child_index }}. {{ grand_child.title }}
+                    </a>
+                  </li>
+                {%- endfor -%}
+                </ul>
+              {%- endif -%}
+  
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</nav>

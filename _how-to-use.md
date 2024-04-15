@@ -1,6 +1,5 @@
 ---
-layout: page
-title: _Jekyll
+layout: default
 nav_exclude: true
 ---
 

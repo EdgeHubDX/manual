@@ -1,6 +1,5 @@
 ---
-layout: page
-title: _Samples
+layout: default
 nav_exclude: true
 ---
 

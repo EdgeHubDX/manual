@@ -5,7 +5,8 @@
 
   <body>
 
-    <div class="pdf">
+    <!-- COVER -->
+    <div class="pdf pdf-page-break">
       <img class="pdf-img pdf-ci" src="{{ '/assets/images/ci.svg' | absolute_url }}" alt="ci.svg" />
       <div class="pdf-title">
         <img class="pdf-img" src="{{ '/assets/images/bi.svg' | absolute_url }}" alt="bi.svg" />
@@ -17,39 +18,73 @@
       <div class="pdf-copyright">Copyright © LS ELECTRIC Co., Ltd. All Rights Reserved.</div>
     </div>
 
-    {% include toc.html %}
-    <main class="container">
-        <div class="content">
-            <article class="post-body">
-                <h1>목차</h1>
-
-                <ol>
-                {% for i in (1..100) %}
-                    {% for post in site.posts %}
-                    {% if post.pdf == i %}
-                        <li><a href="#_page_{{forloop.index}}">{{ post.title }}</a></li>
-                    {% endif %}
-                    {% endfor %}
-                {% endfor %}
-                </ol>
-            </article>
-        </div>
-    </main>
-
-    {% for i in (1..100) %}
-    {% for post in site.posts %}
-    {% if post.pdf == i %}
-    <main class="container">
-        <div class="content">
-            <article class="post-body">
-                <h1><a name="{{post.url}}"></a>{{ post.title }}</h1>
-                {{ post.content }}
-            </article>
-        </div>
-    </main>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+    <!-- Table of Contents -->
+    <div class="pdf pdf-page-break">
+      {% include pdf_toc.html %}
     </div>
+
+    <!-- PAGES -->
+    <div class="pdf">
+    {%- include pdf_sorted_pages.html -%}
+
+    {%- assign first_level_pages = sorted_pages
+      | where_exp: "item", "item.parent == nil"
+      | where_exp: "item", "item.parent == nil" -%}
+    {%- assign second_level_pages = sorted_pages
+      | where_exp: "item", "item.parent != nil"
+      | where_exp: "item", "item.grand_parent == nil" -%}
+    {%- assign third_level_pages = sorted_pages
+      | where_exp: "item", "item.grand_parent != nil" -%}
+
+    {%- for node in first_level_pages -%}
+      {%- assign node_index = forloop.index -%}
+
+      <!-- FIRST LEVEL -->
+      {%- if node.title != nil -%}
+        <h1 id="page_{{ node_index }}" class="pdf-page-title first-level pdf-page-break">
+          {{ node_index }}. {{ node.title }}
+        </h1>
+        <div class="pdf-page-content">{{ node.content }}</div>
+        <!-- SECONDARY LEVEL -->
+        {%- if node.has_children -%}
+          {%- assign children_list = second_level_pages
+            | where: "parent", node.title -%}
+          {%- for child in children_list -%}
+            {%- assign child_index = forloop.index -%}
+            <h1 id="page_{{ node_index }}_{{ child_index }}" class="pdf-page-title second-level">
+              {{ node_index }}.{{ child_index }}. {{ child.title }}
+
+              <a href="#pdf-toc" class="go-to-toc">목차</a>
+            </h1>
+
+            <div class="pdf-page-content">{{ child.content }}</div>
+
+            <!-- THIRD LEVEL -->
+            {%- if child.has_children -%}
+              {%- assign grand_children_list = third_level_pages
+                | where: "parent", child.title
+                | where: "grand_parent", node.title -%}
+              {%- for grand_child in grand_children_list -%}
+                {%- assign grand_child_index = forloop.index -%}
+                <h1 id="page_{{ node_index }}_{{ child_index }}_{{ grand_child_index }}" class="pdf-page-title third-level pdf-page-break">
+                  {{ node_index }}.{{ child_index }}.{{ grand_child_index }}. {{ grand_child.title }}
+                </h1>
+
+                <div class="pdf-page-content">{{ grand_child.content }}</div>
+              {%- endfor -%}
+            {%- else -%}
+              <div class="pdf-page-break" />
+            {%- endif -%}
+
+
+          {%- endfor -%}
+
+        {%- endif -%}
+      {%- endif -%}
+      
+    {%- endfor -%}
+
+    </div>
+
   </body>
 </html>

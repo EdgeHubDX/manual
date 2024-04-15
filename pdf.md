@@ -1,5 +1,4 @@
 ---
 layout: pdf
-title: PDF
 ---
 
