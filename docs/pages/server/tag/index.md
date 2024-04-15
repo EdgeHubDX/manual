@@ -2,12 +2,12 @@
 layout: default
 grand_parent: Pages
 parent: 서버
-title: 서버 설정
+title: 서버태그 설정
 nav_order: 2
 ---
 
 {: .no_toc }
-# 서버 설정
+# 서버태그 설정
 생성한 서버에는 태그 페이지에서 생성한 태그를 등록하여 관리할 수 있습니다. 서브 내비게이션 또는 테이블의 서버명을 클릭하면 해당 페이지로 이동할 수 있습니다. 
 
 - TOC
