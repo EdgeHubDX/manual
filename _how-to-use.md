@@ -1,7 +1,6 @@
 ---
-layout: page
-title: _Jekyll
-permalink: /about/
+layout: default
+nav_exclude: true
 ---
 
 # Jekyll 사용법 (임시)

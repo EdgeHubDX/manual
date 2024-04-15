@@ -1,7 +1,6 @@
 ---
-layout: page
-title: _Samples
-permalink: /samples
+layout: default
+nav_exclude: true
 ---
 
 

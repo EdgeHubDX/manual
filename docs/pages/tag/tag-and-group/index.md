@@ -15,24 +15,24 @@ nav_order: 4
 
 1. 추가 버튼  
   - 해당 버튼을 통해 `그룹` 또는 `태그`를 추가할 수 있습니다.   
-  ![TAG_ADD](./tagaddbtn-1.png)
+  ![TAG_ADD]({{ site.url }}/docs/pages/tag/tag-and-group/tagaddbtn-1.png)
 
 2. 테이블 더보기 버튼  
   - 더보기 메뉴에서 `정보, 수정, 삭제, 복제` 할 수 있습니다.  
-  ![TAG_MORE](./tagmore-1.png)
+  ![TAG_MORE]({{ site.url }}/docs/pages/tag/tag-and-group/tagmore-1.png)
 
 3. Toggle & OPEN  
   - Toggle이 `Edit`인 경우, `OPEN` 클릭 시, Edit창이 표시됩니다.  
   - Toggle이 `Lock`인 경우, `OPEN` 클릭 시, Info창이 표시됩니다.  
-  ![TAG_TOGGLE](./tagtoggle-1.png)
+  ![TAG_TOGGLE]({{ site.url }}/docs/pages/tag/tag-and-group/tagtoggle-1.png)
 
 4. 트리 더보기 
   - `그룹정보, 그룹 수정, 그룹 삭제, 하위 그룹 추가, 하위 태그 추가` 사용가능 합니다.  
-  ![TAG_TREE](./tagatree-1.png)
+  ![TAG_TREE]({{ site.url }}/docs/pages/tag/tag-and-group/tagatree-1.png)
 
 5. 리스트 삭제  
   - 복수개의 리스트를 선택하면, 삭제 버튼이 활성화 됩니다.  
-  ![TAG_LIST](./taglist-1.png)
+  ![TAG_LIST]({{ site.url }}/docs/pages/tag/tag-and-group/taglist-1.png)
 
   {: .note }
   `CTRL + A`로 전체 선택을 사용할 수 있습니다.  
@@ -46,26 +46,26 @@ nav_order: 4
 ### 그룹 추가  
 1. 그룹 `추가 버튼/데이블 더보기/트리 더보기`를 눌러 그룹을 추가할 수 있습니다.  
 
-  ![GROUP_ADD](./groupadd-1.png)
+  ![GROUP_ADD]({{ site.url }}/docs/pages/tag/tag-and-group/groupadd-1.png)
 
 ### 그룹 수정  
 1. 그룹 `Toggle Edit/테이블 더보기/트리 더보기`를 눌러 그룹을 수정할 수 있습니다.  
 
-    ![GROUP_EDIT](./groupedit-2.png)
+    ![GROUP_EDIT]({{ site.url }}/docs/pages/tag/tag-and-group/groupedit-2.png)
 
 2. `확인` 버튼을 클릭하면 수정이 완료됩니다.
 
 ### 그룹 정보  
 1. 그룹 `Toggle Lock/테이블 더보기/트리 더보기`를 눌러 그룹정보를 조회할 수 있습니다. 
 
-  ![GROUP_INFO](./groupinfo-3.png)
+  ![GROUP_INFO]({{ site.url }}/docs/pages/tag/tag-and-group/groupinfo-3.png)
 
 ### 그룹 삭제  
 1. 그룹 `리스트 삭제/데이블 더보기/트리 더보기`를 눌러 그룹을 삭제할 수 있습니다. 
 
 2. `확인` 버튼을 클릭하면 삭제가 완료됩니다.
 
-    ![GROUP_DELETE](./groupdelete-4.png)
+    ![GROUP_DELETE]({{ site.url }}/docs/pages/tag/tag-and-group/groupdelete-4.png)
 
 
 ## 태그
@@ -73,18 +73,18 @@ nav_order: 4
 ### 태그 추가  
 
 1. 태그 `추가 버튼/데이블 더보기/트리 더보기`를 눌러 태그를 추가할 수 있습니다.  
-  ![TAG_ADD](./tagadd-5.png)  
+  ![TAG_ADD]({{ site.url }}/docs/pages/tag/tag-and-group/tagadd-5.png)  
 
 2. 태그 타입별로 등록할 수 있습니다.  
   - Analog  
-    ![TAG_ANALOG](./tag-analog-5.png)  
+    ![TAG_ANALOG]({{ site.url }}/docs/pages/tag/tag-and-group/tag-analog-5.png)  
   - Digital  
-    ![TAG_DIGITAL](./tag-digital-5.png)  
+    ![TAG_DIGITAL]({{ site.url }}/docs/pages/tag/tag-and-group/tag-digital-5.png)  
   - String  
-    ![TAG_STRING](./tag-string-5.png)  
+    ![TAG_STRING]({{ site.url }}/docs/pages/tag/tag-and-group/tag-string-5.png)  
 
 3. Alarm Toggle 버튼을 On 하면, 하위 설정 정보가 활성화 됩니다.  
-  ![TAG_ALARM](./tagalarm-5.png)  
+  ![TAG_ALARM]({{ site.url }}/docs/pages/tag/tag-and-group/tagalarm-5.png)  
 
     - 입력 제한 조건(Analog 타입 )
 
@@ -131,10 +131,10 @@ nav_order: 4
 4. Operation(연산식) Toggle On 하면, 하위 설정 정보가 활성화 됩니다.
   - Class가 Memory(메모리 태그)인 경우에만 설정 가능합니다.
 
-    ![TAG_OPERATION](./tagoperation-5.png)  
+    ![TAG_OPERATION]({{ site.url }}/docs/pages/tag/tag-and-group/tagoperation-5.png)  
 
 5. Event Toggle On 하면, 하위 설정 정보가 활성화 됩니다.  
-    ![TAG_EVENT](./tagevent-5.png)  
+    ![TAG_EVENT]({{ site.url }}/docs/pages/tag/tag-and-group/tagevent-5.png)  
 
     - 입력 제한 조건
 
@@ -153,35 +153,35 @@ nav_order: 4
 ### 태그 수정
 1. 태그 `Toggle Edit/테이블 더보기/트리 더보기`를 눌러 태그를 수정할 수 있습니다.  
 
-    ![TAG_EDIT](./tagedit-6.png)
+    ![TAG_EDIT]({{ site.url }}/docs/pages/tag/tag-and-group/tagedit-6.png)
 
 ### 태그 정보
 1. 태그 `Toggle Lock/테이블 더보기/트리 더보기`를 눌러 태그정보를 조회할 수 있습니다. 
 
-    ![TAG_INFO](./taginfo-7.png)
+    ![TAG_INFO]({{ site.url }}/docs/pages/tag/tag-and-group/taginfo-7.png)
 
 ### 태그 삭제
 1. 태그 `리스트 삭제/데이블 더보기/트리 더보기`를 눌러 태그를 삭제할 수 있습니다. 
 
-    ![TAG_DELETE](./tagdelete-8.png)
+    ![TAG_DELETE]({{ site.url }}/docs/pages/tag/tag-and-group/tagdelete-8.png)
 
 ### 태그 복제
 1. 태그 `테이블 더보기`에서 태그 복제 버튼을 클릭하여 태그를 복제할 수 있습니다.
 
 2. 해당 기능을 활용하여, `기존 태그 설정정보`에서 `태그명`만 변경하여 `다른 태그로 저장`할 수 있습니다.
 
-![TAG_COPY](./tagcopy-9.png)
+![TAG_COPY]({{ site.url }}/docs/pages/tag/tag-and-group/tagcopy-9.png)
 
 ### 태그 옵션 설정  
 1. 테이블 상단의 `더보기` 버튼을 클릭합니다.  
 
 2. `태그 옵션 설정` 버튼을 클릭합니다.  
 
-    ![TAG_OPTION](./tagoption-10.png)
+    ![TAG_OPTION]({{ site.url }}/docs/pages/tag/tag-and-group/tagoption-10.png)
 
 3. `ANALOG TAG DATA, DIGITAL LABELS, ALARM MESSAGES` 3가지 탭이 있습니다.  
 
-  ![TAG_OPTION](./tagoption-pop-10.png)
+  ![TAG_OPTION]({{ site.url }}/docs/pages/tag/tag-and-group/tagoption-pop-10.png)
 
   {: .highlight }
   ✅ **ANALOG TAG DATA**: `Analog Data Units(데이터 단위)`를 추가하고 삭제할 수 있습니다.   

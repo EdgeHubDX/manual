@@ -29,11 +29,11 @@ nav_order: 1
 
 2.  노드 사용  
     tag value노드를 마우스로 끌어 작업영역에 놓습니다.  
-    ![LOGICFLOW_NODE](./tagvaluenode-1.png)  
+    ![LOGICFLOW_NODE]({{ site.url }}/docs/pages/logic-flow/lse/tagvaluenode-1.png)  
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.  
 
-    ![LOGICFLOW_EDIT](./tagvalueedit-1.svg)
+    ![LOGICFLOW_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/tagvalueedit-1.svg)
     - 태그 커넥션: DataWorX와 실시간 태그 값을 주고 받기 위해서는 연결 설정을 하여야 합니다.
     - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
     - 출력형식: 출력으로 내보낼 태그값 모음의 형태를 설정합니다.
@@ -48,7 +48,7 @@ nav_order: 1
 3.  태그 선택기  
     “태그선택” 버튼을 클릭하면 태그선택 팝업이 표시됩니다.
 
-    ![TAG_SELECTER](./tagselecter-1.png)
+    ![TAG_SELECTER]({{ site.url }}/docs/pages/logic-flow/lse/tagselecter-1.png)
 
     원하는 태그 또는 태그그룹을 선택 후 “목록에 추가” 버튼을 클릭하여 태그목록에 추가합니다.  
     태그목록의 정리가 완료되면 “선택확인” 버튼을 사용하여 설정에 적용합니다.  
@@ -63,7 +63,7 @@ nav_order: 1
     tag value 노드는 흐름 연결과 별개로 업데이트 되는 실시간 태그값을 globalContext에 반영하며,
     “global.tag.태그이름”을 사용하여 다른 노드에서 태그 값을 참조 할 수 있습니다.
 
-    ![GLOBAL_CONTEXT](./globalcontext-1.png)
+    ![GLOBAL_CONTEXT]({{ site.url }}/docs/pages/logic-flow/lse/globalcontext-1.png)
 
     globalContext에 존재하는“OBSERVER.Ana1” 태그값을 inject노드에서 사용하는 설정 예시입니다.
 
@@ -74,11 +74,11 @@ nav_order: 1
 2. 노드 사용  
     event trigger노드를 마우스로 끌어 작업영역에 놓습니다.
 
-    ![EVENTTRIGGER](./eventtrigger-2.png)
+    ![EVENTTRIGGER]({{ site.url }}/docs/pages/logic-flow/lse/eventtrigger-2.png)
 
     노드를 더블클릭하여 노드의 속성 수정 화면을 표시합니다.
 
-    ![EVENTTRIGGER_EDIT](./eventtriggeredit-2.png)
+    ![EVENTTRIGGER_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/eventtriggeredit-2.png)
 
     - 커넥션: DataWorX 이벤트서버의 접속환경을 설정합니다.
     - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
@@ -87,7 +87,7 @@ nav_order: 1
 
 3. 태그 선택기  
     “추가” 버튼을 누르면 태그선택 팝업이 표시됩니다.  
-    ![TAG_SELECTER_ADD](./tagselecteradd-2.png)
+    ![TAG_SELECTER_ADD]({{ site.url }}/docs/pages/logic-flow/lse/tagselecteradd-2.png)
     툴바의 오른쪽에 위치한 이벤트 종류 선택 콤보박스를 통하여 필터링할 이벤트 종류를 선택하면, 해당 이벤트를 발생시키도록 설정되어있는 태그의 목록만 표시됩니다.  
 
     원하는 태그를 선택 후 “선택확인” 버튼을 누르면 태그이벤트 목록에 추가됩니다.  
@@ -109,13 +109,13 @@ nav_order: 1
 2. 노드 사용  
     db mapper노드를 마우스로 끌어 작업영역에 놓습니다.  
 
-    ![DBMAPPER_NODE](./dbmappernode-3.png)
+    ![DBMAPPER_NODE]({{ site.url }}/docs/pages/logic-flow/lse/dbmappernode-3.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.  
 
     1. COLUMN타입  
 
-        ![DBMAPPER_COLUMN](./dbmappercolumn-3.png)
+        ![DBMAPPER_COLUMN]({{ site.url }}/docs/pages/logic-flow/lse/dbmappercolumn-3.png)
 
         - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
         - 테이블: 쿼리를 수행할 대상 테이블 이름을 설정합니다.
@@ -128,7 +128,7 @@ nav_order: 1
 
     1. ROW 타입
 
-        ![DBMAPPER_ROW](./dbmapperrow-3.png)
+        ![DBMAPPER_ROW]({{ site.url }}/docs/pages/logic-flow/lse/dbmapperrow-3.png)
 
         - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
         - 테이블: 쿼리를 수행할 대상 테이블 이름을 설정합니다.
@@ -147,7 +147,7 @@ nav_order: 1
 3. 태그 선택기  
     “태그선택” 버튼을 누르면 태그선택 팝업이 표시됩니다.
     
-    ![TAG_SELECTER_SELECT](./tagselecterselect-3.png)
+    ![TAG_SELECTER_SELECT]({{ site.url }}/docs/pages/logic-flow/lse/tagselecterselect-3.png)
 
     원하는 태그를 선택 후 “선택확인” 버튼을 누르면 맵핑항목 목록에 추가됩니다.
     여러 항목을 선택하기 위해 “shift” 및 “ctrl”키를 사용할 수 있습니다.
@@ -161,11 +161,11 @@ nav_order: 1
 
     db mapper노드에 mysql노드를 연결합니다.
 
-    ![DBMAPPER_MYSQL](./dbmappermysql-3.png)
+    ![DBMAPPER_MYSQL]({{ site.url }}/docs/pages/logic-flow/lse/dbmappermysql-3.png)
 
     db mapper노드를 더블클릭하여 노드의 속성 수정 화면을 표시합니다.
 
-    ![DBMAPPER_EDIT](./dbmapperedit-3.png)
+    ![DBMAPPER_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/dbmapperedit-3.png)
 
     데이터베이스의 테이블 및 컬럼 정보 목록이 콤보박스에 나타나면, 선택하여 설정할 수 있습니다.
 
@@ -179,11 +179,11 @@ nav_order: 1
 2. 노드 사용  
     node-red-contrib-influxdb 라이브러리의 influxdb batch노드와 연결하여 사용합니다.
 
-    ![INFLUXDB_NODE](./influxdbnode-4.png)
+    ![INFLUXDB_NODE]({{ site.url }}/docs/pages/logic-flow/lse/influxdbnode-4.png)
 
     influxdb mapper노드를 더블클릭하여 노드의 속성 수정 화면을 표시합니다.
 
-    ![INFLUXDB_EDIT](./influxdbedit-4.png)
+    ![INFLUXDB_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/influxdbedit-4.png)
 
     - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
     - 측정: influxdb에 저장되는 Measurement이름을 설정합니다.
@@ -193,7 +193,7 @@ nav_order: 1
 3. 출력  
     예시에 따른 influxdb mapper의 출력은 아래의 형식과 같습니다.
 
-    ![INFLUXDB_OUTPUT](./influxdboutput-4.png)
+    ![INFLUXDB_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/influxdboutput-4.png)
 
 4. 태그 선택기
     태그 선택기를 통하여 항목 추가가 가능하며, 사용방법은 db mapper와 동일합니다.
@@ -208,11 +208,11 @@ nav_order: 1
 2. 노드 사용  
     node-red-node-mongodb 라이브러리의 mongodb out노드와 연결하여 사용합니다.
 
-    ![MONGODB_NODE](./mongodbnode-5.png)
+    ![MONGODB_NODE]({{ site.url }}/docs/pages/logic-flow/lse/mongodbnode-5.png)
 
     mongodb mapper노드를 더블클릭하여 노드의 속성 수정 화면을 표시합니다.
 
-    ![MONGODB_EDIT](./mongodbedit-5.png)
+    ![MONGODB_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/mongodbedit-5.png)
 
     - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
     - 맵핑항목:
@@ -221,7 +221,7 @@ nav_order: 1
 3. 출력  
     예시에 따른 mongodb mapper의 출력은 아래의 형식과 같습니다.
 
-    ![MONGODB_OUTPUT](./mongodboutput-5.png)
+    ![MONGODB_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/mongodboutput-5.png)
 
 4. 태그 선택기 
     태그 선택기를 통하여 항목 추가가 가능하며, 사용방법은 db mapper와 동일합니다.
@@ -232,19 +232,19 @@ nav_order: 1
 2. 노드 사용  
     mobile notify노드를 마우스로 끌어 작업영역에 놓습니다.
 
-    ![MOBILENOTIFY](./mobileNotify-6.png)
+    ![MOBILENOTIFY]({{ site.url }}/docs/pages/logic-flow/lse/mobileNotify-6.png)
 
     노드를 더블클릭하여 속성수정 화면을 표시합니다.
     1. 노드 설정 
 
-        ![MOBILENOTIFY_SETUP](./mobilenotifysetup-6.png)
+        ![MOBILENOTIFY_SETUP]({{ site.url }}/docs/pages/logic-flow/lse/mobilenotifysetup-6.png)
 
         - 발송채널: 메세지 발송서비스 채널설정을 선택합니다.
         - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
         - 수신목록: 메세지를 수신받을 전화번호를 설정합니다.
     2. 발송채널 설정  
 
-        ![MOBILENOTIFY_EDIT](./mobilenotifyedit-6.png)
+        ![MOBILENOTIFY_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/mobilenotifyedit-6.png)
 
         - Api키: 메세지 서비스업체(CoolSms)에서 발급받은 Api키를 입력합니다.
         - Api시크릿: 메세지 서비스업체(CoolSms)에서 발급받은 Api시크릿을 입력합니다.
@@ -264,13 +264,13 @@ nav_order: 1
 2. 노드 사용  
     function노드를 마우스로 끌어 작업영역에 놓습니다.  
 
-    ![FUNCTION_NODE](./functionnode-7.png)
+    ![FUNCTION_NODE]({{ site.url }}/docs/pages/logic-flow/lse/functionnode-7.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![FUNCTION_EDIT](./functionnodeedit-7.png)
+    ![FUNCTION_EDIT]({{ site.url }}/docs/pages/logic-flow/lse/functionnodeedit-7.png)
 
-    ![FUNCTION_SETUP](./functionnodesetup-7.png)
+    ![FUNCTION_SETUP]({{ site.url }}/docs/pages/logic-flow/lse/functionnodesetup-7.png)
 
     - 이름: 플로우 편집 화면에 표시될 이름을 설정합니다.
     - 코드: 런타임 시 수행할 JavaScript코드를 입력합니다.
@@ -289,7 +289,7 @@ nav_order: 1
             ```
             “BLUE_01_LastUpdateTime”태그의 값을 가져와서 출력으로 내보내는 스크립트입니다.
 
-            ![GETTAGVAL_OUTPUT](./gettagvaloutput-7.png)
+            ![GETTAGVAL_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/gettagvaloutput-7.png)
 
             ↑getTagVal 결과
 
@@ -302,7 +302,7 @@ nav_order: 1
             ```
             “BLUE_01_LastUpdateTime”,“BLUE_01_ReadSuccess” 두 태그의 값을 가져와서 출력으로 내보내는 스크립트입니다.
             
-            ![GETTAGVALARRAY_OUTPUT](./gettagvalarrayoutput-7.png)
+            ![GETTAGVALARRAY_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/gettagvalarrayoutput-7.png)
 
             ↑getTagVal 결과
 
@@ -315,7 +315,7 @@ nav_order: 1
             ```
             “감시화면” 그룹 내 모든 태그의 값을 가져와서 출력으로 내보내는 스크립트입니다.
 
-            ![GETTAGVALGROUP_OUTPUT](./gettagvalgroupnameoutput-7.png)
+            ![GETTAGVALGROUP_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/gettagvalgroupnameoutput-7.png)
 
             ↑getTagVal 결과
 
@@ -342,7 +342,7 @@ nav_order: 1
         결과(ret): { retno: DLL RETURN값 }  
             - 상태값: 0(완료)
 
-        ![SETTAGVAL_OUTPUT](./settagvaloutput-7.png)
+        ![SETTAGVAL_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/settagvaloutput-7.png)
 
         ↑setTagValEX 노드 결과
 
@@ -360,7 +360,7 @@ nav_order: 1
         결과(ret): { retno: DLL RETURN값 }  
             - 상태값: 0(완료)
 
-        ![SETTAGVALEX_OUTPUT](./settagvalexoutput-7.png)
+        ![SETTAGVALEX_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/settagvalexoutput-7.png)
 
         ↑setTagValEX 노드 결과
 
@@ -368,7 +368,7 @@ nav_order: 1
     1. ProjectClose함수  
         DataWorX프로젝트 닫기를 수행하는 함수입니다.
 
-        ![PROJECT_CLOSE](./projectclosearg-7.png)
+        ![PROJECT_CLOSE]({{ site.url }}/docs/pages/logic-flow/lse/projectclosearg-7.png)
 
         ```js
         projectClose(0, function(ret) {
@@ -382,7 +382,7 @@ nav_order: 1
     2. ProjectReload함수  
         DataWorX프로젝트를 다시 로딩하는 함수입니다.
 
-        ![PROJECT_RELOAD](./projectreloadarg-7.png)
+        ![PROJECT_RELOAD]({{ site.url }}/docs/pages/logic-flow/lse/projectreloadarg-7.png)
 
         ```js
         projectReload(0, function(ret) {
@@ -411,7 +411,7 @@ nav_order: 1
     4. Runtime Stop함수  
         DataWorX런타임을 중지하는 함수입니다.
 
-        ![RUNTIME_STOP](./runtimestop-7.png)
+        ![RUNTIME_STOP]({{ site.url }}/docs/pages/logic-flow/lse/runtimestop-7.png)
 
         ```js
         projectRuntimeStop(0, function(ret) {
@@ -434,7 +434,7 @@ nav_order: 1
         결과(ret): { retno: DLL RETURN값, status: 상태값 }
         * 상태값: 0(Closed), 1(Opened), 2(Running)
 
-        ![GET_EDGEHUB_STATUS](./getedgehubstatusoutput-7.png)
+        ![GET_EDGEHUB_STATUS]({{ site.url }}/docs/pages/logic-flow/lse/getedgehubstatusoutput-7.png)
 
         ↑getEdgeHubStatus 결과
 
@@ -442,7 +442,7 @@ nav_order: 1
     1. getHistTagList 함수
         이력태그 데이터 목록을 조회하는 함수입니다.
 
-        ![GET_HIST_TAGLIST](./gethisttaglist-7.png)
+        ![GET_HIST_TAGLIST]({{ site.url }}/docs/pages/logic-flow/lse/gethisttaglist-7.png)
     
         ```js
         getHistTagList('정주기 1분 샘플', 'TestGroup.아나로그01', '2024-03-19', 100, function(ret) {
@@ -458,12 +458,12 @@ nav_order: 1
         - 샘플개수: 조회시간 범위 내에서 샘플링 할 개수
         - 결과(ret): 태그 이력데이터 목록
         
-        ![GET_HIST_TAGLIST](./gethisttagoutput-7.png)
+        ![GET_HIST_TAGLIST]({{ site.url }}/docs/pages/logic-flow/lse/gethisttagoutput-7.png)
 
     2. 🛠️ getHistAlarmList 함수
         이력알람 목록을 조회하는 함수입니다.
 
-        ![GET_ALARM_TAGLIST](./getalarmlist-7.png)
+        ![GET_ALARM_TAGLIST]({{ site.url }}/docs/pages/logic-flow/lse/getalarmlist-7.png)
     
         ```js
         getHistAlarmList(function(ret) {
@@ -489,7 +489,7 @@ nav_order: 1
     1. getAlarmList 함수  
         실시간 알람 목록을 조회하는 함수입니다.
 
-        ![GET_ALARM_LIST_SELECT](./getalarmlistselect-7.png)
+        ![GET_ALARM_LIST_SELECT]({{ site.url }}/docs/pages/logic-flow/lse/getalarmlistselect-7.png)
 
         ```js
         getAlarmList(function(ret) {
@@ -500,12 +500,12 @@ nav_order: 1
 
         결과(ret): { retno: DLL RETURN값, status: 상태값 }
 
-        ![GET_ALARM_LIST_SELECT_OUTPUT](./getalramlistselectoutput-7.png)
+        ![GET_ALARM_LIST_SELECT_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/getalramlistselectoutput-7.png)
 
     2. ackAlarm 함수  
         지정한 알람을 인지처리하는 함수입니다.
 
-        ![ACK_ALARM](./ackalarm-7.png)
+        ![ACK_ALARM]({{ site.url }}/docs/pages/logic-flow/lse/ackalarm-7.png)
 
         ```js
         ackAlarm('hskim6', '0', '10.13.114.224', ['TestGorup.아나로그01', 'TestGroup.아나로그02'], function(ret) {
@@ -519,13 +519,13 @@ nav_order: 1
         - 태그이름목록: 인지처리할 태그이름 배열
         - 결과(ret): DLL RETURN값 
 
-        ![ACK_ALARM_OUTPUT](./ackalarmoutput-7.png)
+        ![ACK_ALARM_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/ackalarmoutput-7.png)
 
 
     3. ackAlarmaAll 함수  
         모든 알람을 인지처리하는 함수입니다.
 
-        ![ACK_ALARM_ALL](./ackalarmall-7.png)
+        ![ACK_ALARM_ALL]({{ site.url }}/docs/pages/logic-flow/lse/ackalarmall-7.png)
 
         ```js
         ackAlarmAll('hskim6', '0', '10.13.114.224', function(ret) {
@@ -539,7 +539,7 @@ nav_order: 1
         - IP주소: 인지처리시 등록할 IP주소
         - 결과(ret): DLL RETURN값
 
-        ![ACK_ALARM_ALL_OUTPUT](./ackalarmalloutput-7.png)
+        ![ACK_ALARM_ALL_OUTPUT]({{ site.url }}/docs/pages/logic-flow/lse/ackalarmalloutput-7.png)
 
 7. 전역 태그값 참조  
     런타임에 동작중인 모든 tag value노드는 태그값 업데이트 시점에 태그값을 globalContext에 반영하고 있으며,  
@@ -552,7 +552,7 @@ nav_order: 1
     - 태그이름 자동완성  
         스크립트 편집기에서 “tag.” 입력 시 사용가능한 태그이름이 자동완성 목록에 표시됩니다.
 
-        ![GLOBAL_TAG_AUTO](./globaltagauto-7.png)
+        ![GLOBAL_TAG_AUTO]({{ site.url }}/docs/pages/logic-flow/lse/globaltagauto-7.png)
 
         태그그룹 구분자 “.”의 커서위치에서 “ctrl+space”를 입력하여 목록을 표시할 수 있습니다.
 

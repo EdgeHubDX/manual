@@ -13,19 +13,19 @@ DataWorX에 생성한 프로젝트 목록을 확인할 수 있습니다. 프로�
 - TOC
 {:toc}
 
-![Project List](./project-list.png)
+![Project List]({{ site.url }}/docs/pages/project/list/project-list.png)
 
 
 ## 프로젝트 오픈
 - 프로젝트 카드를 클릭하면 프로젝트를 오픈할 수 있습니다.
 
-![Project - Open](./project-open.png)
+![Project - Open]({{ site.url }}/docs/pages/project/list/project-open.png)
 
 
 ## 프로젝트 상태
 - `OPENED`/`RUNNING` 중인 프로젝트는 아래와 같이 프로젝트 명 옆에 상태가 표시됩니다.
 
-![Project - State](./project-state.png)
+![Project - State]({{ site.url }}/docs/pages/project/list/project-state.png)
 
 
 ## 프로젝트 명 변경
@@ -35,26 +35,26 @@ DataWorX에 생성한 프로젝트 목록을 확인할 수 있습니다. 프로�
 {: .note }
 `OPENED`/`RUNNING` 중인 프로젝트 명은 변경할 수 없습니다.
 
-![Project - Rename button](./project-rename-button.png)
+![Project - Rename button]({{ site.url }}/docs/pages/project/list/project-rename-button.png)
 
-![Project - Rename Modal](./project-rename-modal.png)
+![Project - Rename Modal]({{ site.url }}/docs/pages/project/list/project-rename-modal.png)
 
 
 ## 프로젝트 목록 업데이트
 - 프로젝트 목록은 아래와 같이 버튼을 클릭하면 업데이트할 수 있습니다.
 - 버튼 좌측의 시간은 목록이 업데이트된 시간을 의미합니다.
 
-![Project - Update](./project-list-update.png)
+![Project - Update]({{ site.url }}/docs/pages/project/list/project-list-update.png)
 
 
 ## 새 프로젝트
-- 새 프로젝트를 추가하기 위한 페이지로 이동합니다. 자세한 내용은 [New Project](../add/)를 참고하시기 바랍니다.
+- 새 프로젝트를 추가하기 위한 페이지로 이동합니다. 자세한 내용은 [프로젝트 추가 페이지]({{ site.url }}/docs/pages/project/add/)를 참고하시기 바랍니다.
 
-![Project - New](./project-new.png)
+![Project - New]({{ site.url }}/docs/pages/project/list/project-new.png)
 
 
 ## 프로젝트 경로 설정
-- 프로젝트 목록을 가져오기 위한 경로를 설정하는 페이지로 이동합니다. 자세한 내용은 [Project Path](../path/)를 참고하시기 바랍니다.
+- 프로젝트 목록을 가져오기 위한 경로를 설정하는 페이지로 이동합니다. 자세한 내용은 [프로젝트 경로 페이지]({{ site.url }}/docs/pages/project/path/)를 참고하시기 바랍니다.
 
-![Project - Path](./project-path.png)
+![Project - Path]({{ site.url }}/docs/pages/project/list/project-path.png)
 

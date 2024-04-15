@@ -10,7 +10,7 @@ nav_order: 2
 # 시뮬레이터 설정
 시뮬레이션 설정페이지는 `왼쪽 Tree의 시뮬레이션명` 클릭 또는 `테이블 셀 시뮬레이션명`을 클릭하여 이동합니다.
 
-![SIMULATION](./simulation-1.png)
+![SIMULATION]({{ site.url }}/docs/pages/simulator/tag/simulation-1.png)
 
 - TOC
 {:toc}
@@ -43,16 +43,16 @@ nav_order: 2
 ## 시뮬레이션 설정 수정  
 1. 시뮬레이션 개별 설정은 하기 `OPEN 버튼`을 눌러 설정합니다.  
 
-    ![SIMULATION_EDIT_OPEN](./simulationedit-open-2.png)
+    ![SIMULATION_EDIT_OPEN]({{ site.url }}/docs/pages/simulator/tag/simulationedit-open-2.png)
 
 
 2. 시뮬레이션 다중 설정은 테이블 `행을 다중선택`하고, `수정 버튼`을 클릭합니다.
 
-    ![SIMULATION_EDIT_BTN](./simulationedit-btn-2.png)
+    ![SIMULATION_EDIT_BTN]({{ site.url }}/docs/pages/simulator/tag/simulationedit-btn-2.png)
 
 3. 시뮬레이션 설정 또는 일괄 수정설정 창이 오른쪽에 표시됩니다.
 
-    ![SIMULATION_EDIT_PANEL](./simulationedit-panel-2.png)
+    ![SIMULATION_EDIT_PANEL]({{ site.url }}/docs/pages/simulator/tag/simulationedit-panel-2.png)
 
 4. 설정 정보를 입력하고 확인버튼을 누르면, 시뮬레이션 설정정보 저장됩니다.
 
@@ -65,11 +65,11 @@ nav_order: 2
 ## 시뮬레이션 설정 해제  
 1. 시뮬레이션 해제는 테이블의 행을 선택하고, `해제 버튼`을 클릭합니다.
 
-    ![SIMULATION_CLEAR](./simulationclear-btn-3.png)
+    ![SIMULATION_CLEAR]({{ site.url }}/docs/pages/simulator/tag/simulationclear-btn-3.png)
 
 2. 시뮬레이션 해제 확인 모달이 표시됩니다.
 
-    ![SIMULATION_CLEAR_MODAL](./simulationclear-modal-3.png)
+    ![SIMULATION_CLEAR_MODAL]({{ site.url }}/docs/pages/simulator/tag/simulationclear-modal-3.png)
 
 3. 확인 버튼을 누르면, 시뮬레이션 설정정보가 해제됩니다.
 
@@ -77,4 +77,4 @@ nav_order: 2
 ## 시뮬레이션 적용/해제
 `Project Running` 상태에서만, 활성화되는 버튼입니다. Run 상태에서 `현재 시뮬레이터를 적용/해제` 할 수 있습니다.
 
-![SIMULATOR_RUNTIME](./simulationruntime-4.png)
+![SIMULATOR_RUNTIME]({{ site.url }}/docs/pages/simulator/tag/simulationruntime-4.png)

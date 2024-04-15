@@ -21,11 +21,11 @@ nav_order: 3
 2. 노드 사용  
     function 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![FUNCTION](./function-9.png)
+    ![FUNCTION]({{ site.url }}/docs/pages/logic-flow/function/function-9.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![FUNCTION_EDIT](./functionedit-9.png)
+    ![FUNCTION_EDIT]({{ site.url }}/docs/pages/logic-flow/function/functionedit-9.png)
 
     - 이름: 노드에 표시되는 이름을 설정합니다. 이름이 없을 경우, 공백이 표시됩니다.
     - 라이브러리 열기: 저장되어 있는 라이브러리를 가져올 수 있습니다.
@@ -45,7 +45,7 @@ nav_order: 3
     return [ msg1, msg2 ];
     ```
 
-    ![FUNCTION_OUTPUT](./functionoutput-9.png)
+    ![FUNCTION_OUTPUT]({{ site.url }}/docs/pages/logic-flow/function/functionoutput-9.png)
 
 4. 로그 출력과 에러처리  
     로그 정보의 출력, 에러 출력을 실행하려면 다음 함수를 사용합니다. 
@@ -63,11 +63,11 @@ nav_order: 3
 2. 노드 사용  
     switch 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![SWITCH](./switch-10.png)
+    ![SWITCH]({{ site.url }}/docs/pages/logic-flow/function/switch-10.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![SWITCH_EDIT](./switchedit-10.png)
+    ![SWITCH_EDIT]({{ site.url }}/docs/pages/logic-flow/function/switchedit-10.png)
 
     - 이름: 노드에 표시되는 이름을 설정합니다. 이름이 없을 경우, “switch” 단어가 표시됩니다.
     - 프로퍼티: 평가 룰의 대상을 설정합니다. msg, flow, global 컨텍스트 프로퍼티 등을 설정할 수 있습니다. 또한 JSONata expression 또는 환경 변수를 대상으로 설정할 수 있습니다.
@@ -76,7 +76,7 @@ nav_order: 3
     - 출력단: 숫자는 출력단의 순서를 표시합니다. 예를 들어 1은 첫번째 출력단으로 출력됨을 의미합니다.  
     예) 두번째 룰을 만족하는 경우 메시지는 아래 그램의 func2로 전달됩니다.
 
-    ![SWITCH_LINK](./switchlink-10.png)
+    ![SWITCH_LINK]({{ site.url }}/docs/pages/logic-flow/function/switchlink-10.png)
 
     - 삭제버튼: 해당 항목을 삭제합니다.
     - +추가: 분류 룰 항목을 추가합니다.
@@ -97,11 +97,11 @@ nav_order: 3
 2. 노드 사용  
     change 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![CHANGE](./change-11.png)
+    ![CHANGE]({{ site.url }}/docs/pages/logic-flow/function/change-11.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![CHANGE_EDIT](./changeedit-11.png)
+    ![CHANGE_EDIT]({{ site.url }}/docs/pages/logic-flow/function/changeedit-11.png)
 
     - 이름: 노드에 표시되는 이름을 설정합니다. 이름이 없을 경우, 선택한 룰과 대상값이 표시됩니다.
     - 룰: 값의 대입, 값의 치환, 값의 삭제, 값이 이동 중 하나를 선택할 수 있습니다. 값의 치환을 선택할 경우 검색할 문자열과 치환 후의 문자열 항목이 표시됩니다.
@@ -114,11 +114,11 @@ nav_order: 3
 2. 노드 사용  
     range 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![RANGE](./range-12.png)
+    ![RANGE]({{ site.url }}/docs/pages/logic-flow/function/range-12.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![RANGE_EDIT](./rangeedit-12.png)
+    ![RANGE_EDIT]({{ site.url }}/docs/pages/logic-flow/function/rangeedit-12.png)
 
     - 프로퍼티: 메시지의 payload를 설정합니다. payload에는 수치를 지정합니다. 수치 이외를 지정한 경우에는 수치로 변환합니다. 변환할 수 없는 경우에는 에러를 발생합니다.
     - 동작: 수치를 변환하기 위한 동작은 3가지 중 선택할 수 있습니다.  
@@ -140,11 +140,11 @@ nav_order: 3
 2. 노드 사용  
     template 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![TEMPLATE](./template-13.png)
+    ![TEMPLATE]({{ site.url }}/docs/pages/logic-flow/function/template-13.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![TEMPLATE_EDIT](./templateedit-13.png)
+    ![TEMPLATE_EDIT]({{ site.url }}/docs/pages/logic-flow/function/templateedit-13.png)
 
     - 이름: 노드에 표시되는 이름을 설정합니다. 이름이 없을 경우, “template” 단어가 표시됩니다.
     - 프로퍼티: 메시지의 payload를 설정합니다. 템플릿에 적용하기 위한 정보를 포함한 메시지 오브젝트입니다. 예) 메시지에 다음과 같은 JSON 객체를 설정할 수 있습니다.
@@ -173,11 +173,11 @@ nav_order: 3
 2. 노드 사용  
     delay 노드를 마우스로 끌어 작업영역에 놓습니다
     
-    ![DELAY](./delay-14.png)
+    ![DELAY]({{ site.url }}/docs/pages/logic-flow/function/delay-14.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![DELAY_EDIT](./delayedit-14.png)
+    ![DELAY_EDIT]({{ site.url }}/docs/pages/logic-flow/function/delayedit-14.png)
 
     - 동작: 메시지 지연 또는 메시지의 유량제한을 선택할 수 있습니다.
 
@@ -186,29 +186,29 @@ nav_order: 3
     msg.reset = 1; 
     ```
 
-    ![DELAY_10S](./delay10s-14.png)
+    ![DELAY_10S]({{ site.url }}/docs/pages/logic-flow/function/delay10s-14.png)
 
     - 메시지 지연: 지연 시간은 고정값, 범위내의 난수값, 메시지 마다의 동적인 지정값 중 하나를 지정할 수 있습니다.
     - 고정값: 고정값이 지난 후 큐에 쌓인 메시지를 처리합니다. 설정된 고정값은 노드 이름에 표시되며, 메시지가 큐에 쌓이면 상태값에 사각형이 표시됩니다
 
-    ![DELAY_BOX](./delay10sbox-14.png)
+    ![DELAY_BOX]({{ site.url }}/docs/pages/logic-flow/function/delay10sbox-14.png)
 
     - 난수값: 설정된 범위 내에서 랜덤 값을 생성하여 지연 시작을 설정하게 됩니다.
 
-    ![DELAY_EDIT](./delayrandomedit-14.png)
+    ![DELAY_EDIT]({{ site.url }}/docs/pages/logic-flow/function/delayrandomedit-14.png)
 
     위와 같이 설정된 경우, 15~20초 사이에서 랜덤 값을 생성하여 메시지를 지연시키게 됩니다.  
     생성된 랜덤 값은 노드의 상태값에 표시됩니다.  
 
-    ![DELAY_RANDOM](./delayrandom-14.png)
+    ![DELAY_RANDOM]({{ site.url }}/docs/pages/logic-flow/function/delayrandom-14.png)
 
     - 메시지 마다의 동적인 지정값: msg.delay에 지연 시간을 메시지 마다 설정합니다. 설정하는 시간은 밀리세컨드 값입니다. 변수에 설정된 지연 시간은 노드의 상태값에 표시됩니다.
 
-    ![DELAYD_VARIABLE](./delayvariable-14.png)
+    ![DELAYD_VARIABLE]({{ site.url }}/docs/pages/logic-flow/function/delayvariable-14.png)
 
     - 메시지의 유량제한: 메시지는 지정된 시간 간격내에 분산되어 송신합니다. 큐에 남은 메시지 수는 노드의 스테이터스에 표시됩니다. 받은 중간 메시지를 파기할 수 있습니다. 유량제한은 모든 메시지에 적용할 수도 있고, msg.topic값으로 그룹화하여 적용할 수도 있습니다. 그룹화하면, 중간 메시지는 자동적으로 파기됩니다. 지정한 시간 후에 큐 선두의 토픽 메시지를 출력할지, 지정한 시간 후에 큐에 있는 모든 토픽 메시지를 출력할지 설정할 수 있습니다
 
-    ![DELAY_MESSAGE](./dealymessage-14.png) ![DELAY_MESSAGE2](./delaymessage2-14.png)
+    ![DELAY_MESSAGE]({{ site.url }}/docs/pages/logic-flow/function/dealymessage-14.png) ![DELAY_MESSAGE2]({{ site.url }}/docs/pages/logic-flow/function/delaymessage2-14.png)
 
     - 이름: 노드에 표시되는 이름을 설정합니다. 이름이 없을 경우, 현재 설정한 내용이 표시됩니다.  
 
@@ -222,28 +222,28 @@ nav_order: 3
 2. 노드 사용  
     trigger 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![TRIGGER](./trigger-15.png)
+    ![TRIGGER]({{ site.url }}/docs/pages/logic-flow/function/trigger-15.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![TRIGGER_EDIT](./triggeredit-15.png)
+    ![TRIGGER_EDIT]({{ site.url }}/docs/pages/logic-flow/function/triggeredit-15.png)
 
     - 송신 데이터: 초기 송신 데이터를 설정합니다. 없음을 설정할 수도 있습니다.
     - 송신후의 처리: 초기 송신 데이터를 송신한 후 다음 3개의 옵션을 설정할 수 있습니다.
 
     1. 초기화될 때까지 대기: trigger노드가 외부 메시지에 의해 트리거되면, 초기 송신 데이터를 송신한 후 reset을 대기합니다. Reset을 대기하는 상태는 노드의 상태 표시에 사각형으로 표시됩니다. 대기 중에는 외부에서 메시지가 수신되어도 아무런 동작을 수행하지 않습니다. msg.reset 속성을 갖는 메시지가 송신되면 외부 메시지에 의한 트리거를 대기하는 상태가 됩니다. 즉, trigger & block 형태로 동작하게 됩니다.
 
-    ![TRIGGER_INIT](./trigger_init-15.png) ![TRIGGER_BLOCK](./triggerblock-15.png)
+    ![TRIGGER_INIT]({{ site.url }}/docs/pages/logic-flow/function/trigger_init-15.png) ![TRIGGER_BLOCK]({{ site.url }}/docs/pages/logic-flow/function/triggerblock-15.png)
 
     2. 지정한 시간 대기: 노드의 기본값으로 설정되어 있는 옵션입니다. 초기 송신 데이터를 송신 후 설정한 시간을 대기합니다. 대기한 시간이 경과하면 재송신 데이터를 송신하게 됩니다. 예를 들어 초기 송신 데이터를 없음으로 설정하고 “새로운 메시지를 받앗을 때 지연을 연장”을 체크하게되면 타이머로 사용할 수 있습니다. 
     
     예) 센서 데이터가 10초마다 수신되어야한다면, 10초가 경과하여도 데이터 메시지가 수신되지 않으면 “타임아웃 발생” 메시지를 송신하게 설정할 수 있습니다.
 
-    ![TRIGGER_WAIT](./triggerwait-15.png)
+    ![TRIGGER_WAIT]({{ site.url }}/docs/pages/logic-flow/function/triggerwait-15.png)
 
     3. 지정한 시간 간격마다 송신을 반복: 지정한 시간마다 초기 송신 메시지를 반복하여 송신합니다. msg.reset 을 수신하면 동작이 reset되어 중지됩니다. Reset된 후에는 외부에서 메시지를 수신하면 재시작하게 됩니다.
     
-    ![TRIGGER_REPLAY](./triggerreplay-15.png)
+    ![TRIGGER_REPLAY]({{ site.url }}/docs/pages/logic-flow/function/triggerreplay-15.png)
 
     - 이름: 노드에 표시되는 이름을 설정합니다. 이름이 없을 경우, 현재 설정한 내용이 표시됩니다.
 
@@ -256,11 +256,11 @@ nav_order: 3
 2. 노드 사용  
     exec 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![EXEC](./exec-16.png)
+    ![EXEC]({{ site.url }}/docs/pages/logic-flow/function/exec-16.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![EXEC_EDIT](./execedit-16.png)
+    ![EXEC_EDIT]({{ site.url }}/docs/pages/logic-flow/function/execedit-16.png)
 
     - 커맨드: 실행할 시스템 커맨드를 입력합니다. 커맨드 혹은 파라미터가 공백을 포함하는 경우에는 앞뒤에 인용부를 붙입니다.
     - 인수: 커맨드의 인수값을 설정합니다. mag.payload를 인수로 설정할 수 있습니다. 
@@ -274,7 +274,7 @@ nav_order: 3
         - 표준 에러 출력(stderr): 커맨드의 표준 에러 출력
         - 반환코드(return code): 리턴코드, message, signal 프로퍼티를 포함하는 오브젝트
     
-    ![EXEC_LINK](./execlink-16.png)
+    ![EXEC_LINK]({{ site.url }}/docs/pages/logic-flow/function/execlink-16.png)
 
     - 프로세스 정지: msg.kill을 수신하면, 실행 중인 프로세스를 정지할 수 있습니다. msg.kill에는 송출할 시그널 종류를 지정할 수 있습니다. 예를 들면, SIGINT, SIGQUIT, SIGHUP 등입니다. 빈 문자열이 지정된 경우에는 SIGTERM을 지정한 것으로 간주됩니다. 노드가 1개 이상의 프로세스를 실행하고 있는 경우, msg.pid에 정지 대상의 PID 를 지정해야 합니다
 
@@ -285,11 +285,11 @@ nav_order: 3
 2. 노드 사용  
     rbe 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![RBE](./rbe-17.png)
+    ![RBE]({{ site.url }}/docs/pages/logic-flow/function/rbe-17.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![RBE_EDIT](./rbeedit-17.png)
+    ![RBE_EDIT]({{ site.url }}/docs/pages/logic-flow/function/rbeedit-17.png)
 
     - Mode: payload의 값이 변경된 경우 다음 노드로 메시지를 전달합니다. 변경이 없으면 차단됩니다. 설정할 수 있는 모드는 다음과 같습니다.
         1. 값이 변하지 않으면 차단

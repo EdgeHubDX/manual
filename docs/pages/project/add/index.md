@@ -13,14 +13,14 @@ DataWorX에서 사용할 프로젝트를 생성할 수 있습니다. 프로젝�
 - TOC
 {:toc}
 
-![New Project](./project-new.png)
+![New Project]({{ site.url }}/docs/pages/project/add/project-new.png)
 
-![Project - Add](./project-add.png)
+![Project - Add]({{ site.url }}/docs/pages/project/add/project-add.png)
 
 ## 프로젝트 속성
 - 프로젝트 명: 공백 또는 숫자로 시작할 수 없으며, 길이는 25 Byte로 제한됩니다. 특수문자는 `-`, `_`만 허용됩니다.
 - 생성자: 현재 로그인한 사용자의 아이디가 자동으로 표시되며 변경할 수 없습니다.
-- 경로: 경로 설정 페이지에서 경로를 추가할 수 있습니다. 자세한 내용은 [Project Path](../path/)를 참고하시기 바랍니다.
+- 경로: 경로 설정 페이지에서 경로를 추가할 수 있습니다. 자세한 내용은 [프로젝트 경로 페이지]({{ site.url }}/docs/pages/project/path/)를 참고하시기 바랍니다.
 
 | 구분        | 속성               | 설명  |
 | :---------- | :---------------- | :---- |
@@ -46,9 +46,9 @@ DataWorX에서 사용할 프로젝트를 생성할 수 있습니다. 프로젝�
 3. 비밀번호 설정 모달에 원하는 비밀번호를 설정합니다.
 4. 비밀번호가 설정되었다면 카드 하단의 텍스트 버튼의 체크표시가 파랑색으로 변경됩니다.
 
-![Project - Password](./project-password.png)
-![Project - Password Modal](./project-password-modal.png)
-![Project - Password Set](./project-password-set.png)
+![Project - Password]({{ site.url }}/docs/pages/project/add/project-password.png)
+![Project - Password Modal]({{ site.url }}/docs/pages/project/add/project-password-modal.png)
+![Project - Password Set]({{ site.url }}/docs/pages/project/add/project-password-set.png)
 
 
 ## 프로젝트 파일

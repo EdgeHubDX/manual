@@ -9,7 +9,7 @@ nav_order: 1
 <br />
 <br />
 
-![Home](/assets/images/home.png)
+![Home]({{ site.url }}/assets/images/home.png)
 
 <br />
 <br />

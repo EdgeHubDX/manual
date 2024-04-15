@@ -12,9 +12,9 @@ DataWorX가 실행되는 서버의 리소스 정보를 확인할 수 있는 페�
 - TOC
 {:toc}
 
-![System Info. Item](./system-info-item.png)
+![System Info. Item]({{ site.url }}/docs/pages/system-info/system-info-item.png)
 
-![System Info.](./system-info.png)
+![System Info.]({{ site.url }}/docs/pages/system-info/system-info.png)
 
 ## 세부정보
 - 서버 이름, 운영체제, CPU 종류, 메모리, 시스템 타입, IP 주소를 확인할 수 있습니다.

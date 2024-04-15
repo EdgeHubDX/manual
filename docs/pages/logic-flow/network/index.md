@@ -19,17 +19,17 @@ nav_order: 4
 2. 노드 사용  
     mqtt in 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![MQTTIN](./mqttin-18.png)
+    ![MQTTIN]({{ site.url }}/docs/pages/logic-flow/network/mqttin-18.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![MQTTIN_EDIT](./mqttinedit-18.png)
+    ![MQTTIN_EDIT]({{ site.url }}/docs/pages/logic-flow/network/mqttinedit-18.png)
 
     - 서버: 우측의 편집 버튼을 클릭하면 서버 접속 설정을 생성할 수 있습니다. 서버 접속 설정은 mqtt in과 mqtt out에서 재이용할 수 있습니다
 
     1. 접속  
 
-    ![MQTTIN_CONNECT](./mqttinconnect-18.png)
+    ![MQTTIN_CONNECT]({{ site.url }}/docs/pages/logic-flow/network/mqttinconnect-18.png)
 
     - 서버: mqtt 브로커 서버의 주소를 입력합니다.
     - 포트: mqtt 브로커 서버의 포트를 입력합니다. 디폴트값은 1883 입니다.
@@ -40,14 +40,14 @@ nav_order: 4
 
     2. 세큐리티
     
-    ![MQTTIN_SECURITY](./mqttinsecurity-18.png)
+    ![MQTTIN_SECURITY]({{ site.url }}/docs/pages/logic-flow/network/mqttinsecurity-18.png)
 
     - 유저: 사용자 ID를 입력합니다.
     - 패스워드: 사용자 암호를 입력합니다.
 
     3. 메시지
         
-    ![MQTTIN_MESSAGE](./mqttinmessage-18.png)
+    ![MQTTIN_MESSAGE]({{ site.url }}/docs/pages/logic-flow/network/mqttinmessage-18.png)
 
     - 접속 시, 중단 시, 예기치 않은 중단 시 사용할 메시지를 설정합니다
     - 토픽: mqtt의 토픽을 입력합니다. “/”를 사용하여 계층을 구분합니다.
@@ -63,11 +63,11 @@ nav_order: 4
 2. 노드 사용  
     mqtt out 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![MQTTOUT](./mqttout-19.png)
+    ![MQTTOUT]({{ site.url }}/docs/pages/logic-flow/network/mqttout-19.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![MQTTOUT_EDIT](./mqttoutedit-19.png)
+    ![MQTTOUT_EDIT]({{ site.url }}/docs/pages/logic-flow/network/mqttoutedit-19.png)
 
     - 서버: 우측의 편집 버튼을 클릭하면 서버 접속 설정을 생성할 수 있습니다. 서버 접속 설정은 mqtt in과 mqtt out에서 재이용할 수 있습니다.
     - 토픽: 발행 대상의 mqtt 토픽입니다. msq.payload의 값을 사용하여 발행하며 보통 단순한 텍스트 형태이지만, 바이너리 버퍼를 발행하는 것도 가능합니다.
@@ -82,11 +82,11 @@ nav_order: 4
 2. 노드 사용  
     http in 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![HTTPIN](./httpin-20.png)
+    ![HTTPIN]({{ site.url }}/docs/pages/logic-flow/network/httpin-20.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![HTTPIN_EDIT](./httpinedit-20.png)
+    ![HTTPIN_EDIT]({{ site.url }}/docs/pages/logic-flow/network/httpinedit-20.png)
 
     - 메소드: GET, POST, PUT, DELETE, PATCH 등의 메소드를 선택할 수 있습니다.
         - GET: 리소스 조회에 사용
@@ -113,11 +113,11 @@ nav_order: 4
 2. 노드 사용  
     http response 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![HTTPREP](./httpresponse-21.png)
+    ![HTTPREP]({{ site.url }}/docs/pages/logic-flow/network/httpresponse-21.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![HTTPREP_EDIT](./httpresponseedit-21.png)
+    ![HTTPREP_EDIT]({{ site.url }}/docs/pages/logic-flow/network/httpresponseedit-21.png)
 
     - 상태코드: http 응답 상태 코드를 지정할 수 있습니다. 지정하지 않을 경우, msg.statusCode의 값이 사용됩니다.
     - 헤더: 헤더를 지정할 수 있습니다. “+추가” 버튼을 클릭하면 헤더 항목을 추가할 수 있습니다.
@@ -144,11 +144,11 @@ nav_order: 4
 2. 노드 사용  
     http request 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![HTTPREQ](./httpreq-22.png)
+    ![HTTPREQ]({{ site.url }}/docs/pages/logic-flow/network/httpreq-22.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![HTTPREQ_EDIT](./httpreqedit-22.png)
+    ![HTTPREQ_EDIT]({{ site.url }}/docs/pages/logic-flow/network/httpreqedit-22.png)
 
     - 메소드: GET, POST, PUT, DELETE, PATCH 등의 메소드를 선택할 수 있습니다.
         - GET: 리소스 조회에 사용
@@ -190,11 +190,11 @@ nav_order: 4
 2. 노드 사용  
     websocket in 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![WEBSOCKETIN](./websocketin-23.png)
+    ![WEBSOCKETIN]({{ site.url }}/docs/pages/logic-flow/network/websocketin-23.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![WEBSOCKETIN_EDIT](./websocketinedit-23.png)
+    ![WEBSOCKETIN_EDIT]({{ site.url }}/docs/pages/logic-flow/network/websocketinedit-23.png)
 
     - 종류: 대기 또는 접속을 선택할 수 있습니다.
     - 패스: 종류에 따라 설정이 달라집니다. 
@@ -208,11 +208,11 @@ nav_order: 4
 2. 노드 사용  
     websocket out 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![WEBSOCKETOUT](./websocketout-24.png)
+    ![WEBSOCKETOUT]({{ site.url }}/docs/pages/logic-flow/network/websocketout-24.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![WEBSOCKETOUT_EDIT](./websocketoutedit-24.png)
+    ![WEBSOCKETOUT_EDIT]({{ site.url }}/docs/pages/logic-flow/network/websocketoutedit-24.png)
 
     - 종류: 대기 또는 접속을 선택할 수 있습니다.
     - 패스: 종류에 따라 설정이 달라집니다. 
@@ -228,16 +228,16 @@ nav_order: 4
 2. 노드 사용  
     tcp in 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![TCPIN](./tcpin-25.png)
+    ![TCPIN]({{ site.url }}/docs/pages/logic-flow/network/tcpin-25.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![TCPIN_EDIT](./tcpinedit-25.png)
+    ![TCPIN_EDIT]({{ site.url }}/docs/pages/logic-flow/network/tcpinedit-25.png)
 
     - 종류: 대기 또는 접속을 선택할 수 있습니다.  
     대기를 선택한 경우, 대기할 포트값을 입력하여야 합니다. 접속을 선택한 경우, 접속할 호스트 주소와 포트값을 입력하여야 합니다.
 
-    ![TCPIN_SORT](./tcpinsort-25.png)
+    ![TCPIN_SORT]({{ site.url }}/docs/pages/logic-flow/network/tcpinsort-25.png)
 
     - 출력: 스트림 또는 단일을 선택할 수 있습니다. 각각에 대하여 공히 데이터 형식은 문자열, 바이너리 버퍼, Base64 문자열 중 선택할 수 있습니다.
         - 스트림: 통신 연결된 상태에서 데이터를 주기적, 간헐적으로 입력되는 데이터를 입력 처리할 수 있습니다. 나누는 문자를 설정하면 해당 구분자로 끊어서 처리할 수 있습니다. 예) “/”로 설정한 경우 입력되는 메시지는 “this/is/a/test/”로 입력되면 각각이 구분되어 입력 처리됩니다.
@@ -251,25 +251,25 @@ nav_order: 4
 2. 노드 사용  
     tcp out 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![TCPOUT](./tcpout-26.png)
+    ![TCPOUT]({{ site.url }}/docs/pages/logic-flow/network/tcpout-26.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![TCPOUT_EDIT](./tcpoutedit-26.png)
+    ![TCPOUT_EDIT]({{ site.url }}/docs/pages/logic-flow/network/tcpoutedit-26.png)
 
     - 종류: 대기, 접속 또는 TCP응답을 선택할 수 있습니다.
         - 대기를 선택한 경우, 대기할 포트값을 입력하여야 합니다. 
         - 접속을 선택한 경우, 접속할 호스트 주소와 포트값을 입력하여야 합니다.
     
-    ![TCPOUT_SORT](./tcpoutsort-26.png)
+    ![TCPOUT_SORT]({{ site.url }}/docs/pages/logic-flow/network/tcpoutsort-26.png)
 
     - TCP 응답의 경우 TCP in 노드에 접속한 상대방으로 응답 메시지를 보낼 수 있습니다.
         
-    ![TCPOUT_REP](./tcpoutrep-26.png)
+    ![TCPOUT_REP]({{ site.url }}/docs/pages/logic-flow/network/tcpoutrep-26.png)
 
     예) 1번은 tcp in 서버입니다. 2번은 tcp out(tcp 응답)입니다. 3번은 메시지 생성자입니다. 3번에서 메시지를 생성하여 2번에 전달하면 2번은 1번에 접속한 모든 클라이언트로 메시지를 전송하게 됩니다. 1번에서 받은 메시지를 수정하여 응답하게 되는 경우에는 메시지를 보낸 클라이언트에게만 메시지를 전송합니다. 즉, msg._session 속성 항목이 존재하지 않은 경우, 접속한 모든 클라이언트에게 송신합니다
 
-    ![TCPOUT_LINK](./tcpoutlink-26.png)
+    ![TCPOUT_LINK]({{ site.url }}/docs/pages/logic-flow/network/tcpoutlink-26.png)
 
     - 메시지를 송신할 때마다 접속을 절단: 데이터를 송신한 후 연결을 끊고 다시 연결하는 동작을 합니다. 보내는 데이터는 flush되어 모두 전송됩니다.
     - Base64메시지의 복호: msg.payload가 바이너리 데이터를 Base64인코딩의 문자열로 변환한 것일 경우, Base64디코딩 옵션을 지정하면 데이터를 바이너리로 변환하여 송신합니다.
@@ -284,22 +284,22 @@ nav_order: 4
 2. 노드 사용  
     tcp request 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![TCPREQ](./tcpreq-27.png)
+    ![TCPREQ]({{ site.url }}/docs/pages/logic-flow/network/tcpreq-27.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![TCPREQ_EDIT](./tcpreqedit-27.png)
+    ![TCPREQ_EDIT]({{ site.url }}/docs/pages/logic-flow/network/tcpreqedit-27.png)
 
     - 서버/포트: 접속할 서버의 ip address 및 포트 정보를 입력합니다. 포트 번호를 공백으로 설정한 경우, msg.host 및 msg.port 프로퍼티를 설정해야 합니다.
     - 반환값: 반환값은 버퍼형식으로 msg.payload에 출력됩니다. 문자열로 취급하기 위해서는 .toString()을 사용하시가 바랍니다. 반환값을 처리하는 동작을 선택할 수 있습니다.
         - 지정시간 후: 첫번째 응답을 받은 후 지정한 시간(밀리초)을 대기한 후 결과를 반환합니다.
         - 지정문자의 수신 시: 설정한 문자열이 도착한 경우 결과를 반환합니다.  
     
-    ![TCPREQ_RECEIVE](./tcpreqreceive-27.png)
+    ![TCPREQ_RECEIVE]({{ site.url }}/docs/pages/logic-flow/network/tcpreqreceive-27.png)
 
     - 지정 개수의 문자열: 반환된 문자의 수가 지정한 문자 개수를 초과할 경우 결과를 반환합니다.
         
-    ![TCPREQ_STRING](./tcpreqstring-27.png)
+    ![TCPREQ_STRING]({{ site.url }}/docs/pages/logic-flow/network/tcpreqstring-27.png)
 
     - 없음 - 접속을 유지: 별도의 동작 조건이 없음을 의미합니다. 응답이 도착할 경우 즉시 결과를 반환합니다.
     - 즉시 – 응답을 기다리지 않음: 요청을 송신한 후 응답을 기다리지 않고 접속을 즉시 삭제합니다.
@@ -311,11 +311,11 @@ nav_order: 4
 2. 노드 사용  
     udp in 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![UDP_IN](./udpin-28.png)
+    ![UDP_IN]({{ site.url }}/docs/pages/logic-flow/network/udpin-28.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![UDP_IN_EDIT](./udpinedit-28.png)
+    ![UDP_IN_EDIT]({{ site.url }}/docs/pages/logic-flow/network/udpinedit-28.png)
 
     - 대기: UDP 메시지 또는 멀티캐스트 메시지 중 선택할 수 있습니다. UDP 메시지는 UniCasting을 의미합니다.
     - 포트/종류: 데이터를 수신할 포트를 설정합니다. 종류는 ipv4 또는 ipv6 중 선택할 수 있습니다.
@@ -328,11 +328,11 @@ nav_order: 4
 2. 노드 사용  
     udp out 노드를 마우스로 끌어 작업영역에 놓습니다.
     
-    ![UDPOUT](./udpout-29.png)
+    ![UDPOUT]({{ site.url }}/docs/pages/logic-flow/network/udpout-29.png)
 
     작업영역에서 해당 노드를 더블클릭하면 노드의 속성 수정 화면이 표시됩니다.
 
-    ![UDPOUT_EDIT](./udpoutedit-29.png)
+    ![UDPOUT_EDIT]({{ site.url }}/docs/pages/logic-flow/network/udpoutedit-29.png)
 
     - 송신/포트: UDP 메시지, 브로드캐스트 메시지 또는 멀티캐스트 메시지 중 선택할 수 있습니다. 데이터를 수신할 호스트의 포트 정보를 입력합니다.
     - 어드레스: 데이터를 수신할 호스트의 IP 주소를 입력합니다. 주소 타입을 ipv4/ipv6 중 선택할 수 있습니다. 기본값은 ipv4입니다.

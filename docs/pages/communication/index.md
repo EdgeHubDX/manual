@@ -12,7 +12,7 @@ nav_order: 15
 - TOC
 {:toc}
 
-![Communication - Nav](./communication-nav.png)
+![Communication - Nav]({{ site.url }}/docs/pages/communication/communication-nav.png)
 
 
 ## 디바이스 상태
@@ -34,14 +34,14 @@ nav_order: 15
 ## 디바이스 전체 목록
 - 프로젝트에 연결된 모든 디바이스의 상태를 확인할 수 있습니다.
 
-![Communication](./communication-channels.png)
+![Communication]({{ site.url }}/docs/pages/communication/communication-channels.png)
 
 ## 채널 별 디바이스 목록
 - 서브 내비게이션의 채널명 또는 테이블의 채널명을 클릭하면 해당 채널의 디바이스 상태를 확인할 수 있습니다.
 
-![Communication - Devices Button](./communication-devices-button.png)
+![Communication - Devices Button]({{ site.url }}/docs/pages/communication/communication-devices-button.png)
 
-![Communication - Devices](./communication-devices.png)
+![Communication - Devices]({{ site.url }}/docs/pages/communication/communication-devices.png)
 
 ## 속성 설명  
 테이블 속성 설명은 다음과 같습니다.

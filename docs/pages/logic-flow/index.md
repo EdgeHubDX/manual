@@ -25,7 +25,7 @@ LogicFlow는 Nodejs런타임 환경에서 구동이 가능하며, Html5지원 �
 ## 구성  
 LogicFlow편집기는 웹브라우저 상에서 동작하며, LogicFlow런타임에서 동작 할 플로우를 작성할 수 있는 다양한 기능을 제공합니다.
 
-![LOGICFLOW](./logicflow-1.png)
+![LOGICFLOW]({{ site.url }}/docs/pages/logic-flow/logicflow-1.png)
 LogicFlow 편집기의 화면 구성에 대한 설명은 다음과 같습니다.  
 
 ✅ **팔레트**: 플로우 작성시 사용 가능한 노드의 목록이며, 작업영역에 마우스로 끌어넣어 사용할 수 있습니다.  
