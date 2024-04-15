@@ -15,4 +15,4 @@ nav_order: 4
 ![Project Info](./project-info.png)
 
 {: .highlight }
-프로젝트 속성에 관한 정보는 [프로젝트 추가 페이지](../project-add/#1-프로젝트-속성)를 참고 바랍니다.
+프로젝트 속성에 관한 정보는 [프로젝트 추가 페이지](../add/#프로젝트-속성)를 참고 바랍니다.
