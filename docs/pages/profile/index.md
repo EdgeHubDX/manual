@@ -15,7 +15,7 @@ nav_order: 2
 ![Profile - Item](./profile-item.png)
 
 
-## 1. 사용자 정보
+## 사용자 정보
 - 사용자 명: 영문, 한글을 사용하여 3 - 30자로 입력할 수 있습니다. 
 
 {: .note }
@@ -24,7 +24,7 @@ nav_order: 2
 ![Profile](./profile.png)
 
 
-## 2. 비밀번호 설정
+## 비밀번호 설정
 - 프로필 카드 하단 우측에 `비밀번호 설정` 버튼을 클릭한 후 오픈된 비밀번호 설정 모달을 통해 비밀번호를 수정할 수 있습니다. 
 
 ![Profile - Password](./profile-password.png)

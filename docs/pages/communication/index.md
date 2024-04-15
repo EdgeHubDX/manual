@@ -15,7 +15,7 @@ nav_order: 15
 ![Communication - Nav](./communication-nav.png)
 
 
-## 1. 디바이스 상태
+## 디바이스 상태
 
 | 상태                                         | 설명 |
 | :------------------------------------------- | :--- |
@@ -24,26 +24,26 @@ nav_order: 15
 | <span class="highlight-red">Error</span>     | 프로젝트가 실행되었으나 디바이스와의 연결에 문제가 있는 상태 |
 
 
-## 2. 디바이스 사용 설정
+## 디바이스 사용 설정
 - 테이블 내 사용 컬럼의 토글 스위치를 클릭하면 디바이스 사용 여부를 설정할 수 있습니다.
 
 {: .note }
 🚧 디바이스 사용 설정 기능은 추후 지원 예정입니다. 🚧 
 
 
-## 3. 디바이스 전체 목록
+## 디바이스 전체 목록
 - 프로젝트에 연결된 모든 디바이스의 상태를 확인할 수 있습니다.
 
 ![Communication](./communication-channels.png)
 
-## 4. 채널 별 디바이스 목록
+## 채널 별 디바이스 목록
 - 서브 내비게이션의 채널명 또는 테이블의 채널명을 클릭하면 해당 채널의 디바이스 상태를 확인할 수 있습니다.
 
 ![Communication - Devices Button](./communication-devices-button.png)
 
 ![Communication - Devices](./communication-devices.png)
 
-## 5. 속성 설명  
+## 속성 설명  
 테이블 속성 설명은 다음과 같습니다.
 
 | 속성                                         | 설명 |

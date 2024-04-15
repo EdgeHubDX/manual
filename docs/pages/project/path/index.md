@@ -16,10 +16,10 @@ nav_order: 3
 ![Project Path Button](./project-path-button.png)
 
 
-## 1. 경로 목록
+## 경로 목록
 ![Project Path](./project-path.png)
 
-## 2. 경로 추가
+## 경로 추가
 - 경로 목록 카드의 우측 상단의 `+` 버튼을 클릭하면 경로 추가 모달이 오픈됩니다.
 - 모달에서 파일 탐색기와 동일한 방식으로 원하는 폴더를 찾을 수 있습니다.
 - 아래와 같이 브레드크럼을 클릭하면 이전 위치로 이동할 수 있습니다.
@@ -28,13 +28,13 @@ nav_order: 3
 ![Project Path Modal - Breadcrumbs](./project-path-modal-breadcrumbs.png)
 ![Project Path Modal - Confirm](./project-path-modal.png)
 
-## 3. 경로 수정
+## 경로 수정
 
 {: .note }
 🚧 수정 기능은 추후 지원 예정입니다. 🚧 
 
 
-## 4. 경로 삭제
+## 경로 삭제
 - 경로 목록의 메뉴 버튼을 클릭하면 경로를 삭제할 수 있습니다. 
 
 ![Project Path - Delete](./project-path-delete.png)
