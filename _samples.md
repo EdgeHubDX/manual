@@ -1,7 +1,7 @@
 ---
 layout: page
 title: _Samples
-permalink: /samples
+nav_exclude: true
 ---
 
 

@@ -22,6 +22,8 @@ title: DataWorX Manual
 email: compsyc@ls-electric.com
 description: >- # this means to ignore newlines until "baseurl:"
   DataWorX Manual
+version: 1.0.0
+updated_at: 2024년 4월 15일
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

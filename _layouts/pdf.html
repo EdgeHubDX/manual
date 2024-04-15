@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="{{ site.lang | default: 'en-US' }}">
+  {% include head.html %}
+
+  <body>
+
+    <div class="pdf">
+      <img class="pdf-img pdf-ci" src="{{ '/assets/images/ci.svg' | absolute_url }}" alt="ci.svg" />
+      <div class="pdf-title">
+        <img class="pdf-img" src="{{ '/assets/images/bi.svg' | absolute_url }}" alt="bi.svg" />
+        <h1>사용자 매뉴얼</h1>
+      </div>
+      <img class="pdf-img pdf-cover-img" src="{{ '/assets/images/home.png' | absolute_url }}" alt="home.png" />
+      <div class="pdf-version">v{{ site.version }}</div>
+      <div class="pdf-date">{{ site.updated_at }}</div>
+      <div class="pdf-copyright">Copyright © LS ELECTRIC Co., Ltd. All Rights Reserved.</div>
+    </div>
+
+    {% include toc.html %}
+    <main class="container">
+        <div class="content">
+            <article class="post-body">
+                <h1>목차</h1>
+
+                <ol>
+                {% for i in (1..100) %}
+                    {% for post in site.posts %}
+                    {% if post.pdf == i %}
+                        <li><a href="#_page_{{forloop.index}}">{{ post.title }}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                {% endfor %}
+                </ol>
+            </article>
+        </div>
+    </main>
+
+    {% for i in (1..100) %}
+    {% for post in site.posts %}
+    {% if post.pdf == i %}
+    <main class="container">
+        <div class="content">
+            <article class="post-body">
+                <h1><a name="{{post.url}}"></a>{{ post.title }}</h1>
+                {{ post.content }}
+            </article>
+        </div>
+    </main>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    </div>
+  </body>
+</html>

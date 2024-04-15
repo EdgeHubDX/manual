@@ -141,3 +141,67 @@
 
 
 
+// pdf
+
+.pdf {
+  // 210 : 297
+  width: 740px;
+  height: 1078px;
+  margin: 0 auto;
+  padding: 16px;
+
+  position: relative;
+}
+
+// --- cover 
+.pdf-title {
+  margin-top: 120px;
+
+  img {
+    height: 100px;
+    margin-bottom: 8px;
+  }
+  
+  h1 {
+    font-size: 80px !important;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0,0,0, 0.7);
+  }
+}
+
+.pdf-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.pdf-cover-img {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.pdf-version {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.pdf-date {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.pdf-copyright {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  margin-top: 80px;
+}
+
+.pdf-ci {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+// ---
