@@ -4,16 +4,20 @@ parent: Drivers
 title: Allen Bradley_NX-CCU
 nav_order: 2
 ---
+{: .no_toc }
 # Allen Bradley: NX-CCU
+- TOC
+{:toc}
+
 ## 1. 결선도
 RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 ### 1.1 RS-232C
  
- 사진첨부
+ ![RS-232C](./1.RS-232C-1.png)
 
 ### 1.2 RS-485
 
- 사진첨부
+ ![RS-485](./1.RS-485-2.png)
 
  {:.note}
 >WinFPST 로더 케이블을 사용하여 통신이 안될 수 있습니다. 
@@ -24,12 +28,12 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 ### 2.1 PLC 설정
 1. CPU 상의 COM포트 이용 시
 
-    사진 첨부
+    ![PLC-set](./2.PLC-set-1.png)
 
     PLC의 통신 설정은 래더 소프트웨어인 WinFPST 상에서 변경할 수 있습니다.   
     WinFPST 에서 메뉴의 [옵션] -> [시스템 레지스터 설정] -> [COM 포트설정]을 선택하여 아래와 같이 설정할 수 있습니다.
 
-    사진첨부
+    ![PLC-register-set](./2.PLC-register-set-1.png)
 
     - 동작선택: 컴퓨터 링크
     - 종단 코드: CR
@@ -40,27 +44,27 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 
 2. CCU 유닛 이용 시
  
-    사진 첨부
+    ![CCU-unit1](./2.CCU-unit1-1.png)![CCU-unit2](./2.CCU-unit2-1.png)
 
     PLC의 통신 설정은 밑면 딥 스위치를 통해 설정할 수 있습니다. 
 
     통신 설정은 아래 표를 참고하시기 바랍니다.
 
-    사진 첨부
+    ![PLC-DSW-1](./2.PLC-DSW-1.png)
 
 ### 2.2 EdgeHub 설정
 1. 채널 추가
-    1. Field Device 트리에서 Field Device를 클릭 후, 추가 버튼을 누르면 추가할 채널의 드라이버를 선택하는 화면이 열립니다. 
+    
+    자세한 사용법은  [매뉴얼의 Pages-필드디바이스-채널추가](http://localhost:4000/docs/pages/field-device/#31-%EC%B1%84%EB%84%90-%EC%B6%94%EA%B0%80)를 참고해 주세요
 
-    사진첨부
 
-    2. 채널추가 리스트에서 “NXCCU”를 선택한 후 “확인” 버튼을 누릅니다. 
+    - 채널추가 리스트에서 “NXCCU”를 선택한 후 “확인” 버튼을 누릅니다. 
 
-    사진첨부
+    ![CHANNEL_ADD](./2.channel-add-2.png)
 
 2. 채널 속성 설정
   
-    사진첨부
+    ![CHANNEL_ATT](./2.channel-att-2.png)
 
     - 채널명 : 통신채널 이름을 입력합니다. 
     - 채널설명 : 통신채널 설명을 입력합니다.
@@ -74,13 +78,13 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
     - 저장 : 저장 버튼을 누르면, 설정된 통신 채널 정보가 저장되고 상단의 채널 리스트에 표시 됩니다.
 
 3. 디바이스 추가 
-    Field Device 트리에서 추가한 NXCCU 채널을 클릭 후, 추가 버튼을 누르면 디바이스를 추가할 수 있는 화면이 열립니다. 
+  
+    자세한 사용법은  [매뉴얼의 Pages-필드디바이스-디바이스 추가](http://localhost:4000/docs/pages/field-device/#41-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4-%EC%B6%94%EA%B0%80)를 참고해 주세요
 
-    사진첨부
 
 4. 디바이스 속성 설정
 
-     사진첨부
+     ![DEVICE_ADD](./2.device-add-2.png)
      
     - 디바이스 명 : 디바이스 이름을 입력합니다.
     - 디바이스 설명 : 디바이스 설명을 입력합니다.
@@ -89,14 +93,13 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
     - 저장 : 저장하면 메인 화면의 디바이스 트리에 디바이스가 추가됩니다. 메인 화면의 태그 리스트에는 디바이스 관련 시스템 태그들이 자동으로 추가 됩니다.
 
 5. Block 추가
-    NXCCU 디바이스를 선택 후, 추가를 클릭합니다. 
-
-    사진첨부
+   
+    자세한 사용법은  [매뉴얼의 Pages-필드디바이스-블록 추가](http://localhost:4000/docs/pages/field-device/#51-%EB%B8%94%EB%A1%9D-%EC%B6%94%EA%B0%80)를 참고해 주세요
 
 6. Block 설정
     디바이스 속성을 저장하면 Block 설정을 할 수 있습니다. 
 
-    사진 첨부
+    ![BLOCK_ADD](./2.block-add-2.png)
 
     - 블록번호 : 통신 블록 번호를 입력합니다. 블록의 고유 번호이며 같은 번호를 중복하여 사용할 수 없습니다.
     - Block설명 : 통신 블록의 설명을 입력합니다.

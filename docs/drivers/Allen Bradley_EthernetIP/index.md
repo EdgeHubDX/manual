@@ -4,15 +4,20 @@ parent: Drivers
 title: Allen Bradley Ethernet/IP
 nav_order: 1
 ---
+
+{: .no_toc }
 # Allen Bradley: Ethernet/IP
+
+- TOC
+{:toc}
+
 ## 1. 통신드라이버 설정
 ### 1.1 PLC 설정
 1. Control/CompactLogix 시리즈
 Control/CompactLogix 시리즈에서는 RSLogix5000 프로그램을 이용하여 사용자가 직접 Tag를 정의해서 사용합니다.  
 RSLogix5000 프로그램을 실행 후 상단 메뉴 [Communication] -> [Who Active] 선택하십시오.
 
-
-사진첨부
+![PLC-set](./1.PLC-set-1.png)
 
 검출된 PLC와 접속하여 사용할  Tag를 정의하고 등록합니다. 
 
@@ -22,11 +27,11 @@ RSLogix5000 프로그램을 실행 후 상단 메뉴 [Communication] -> [Who Act
 2. MicroLogix 시리즈
 RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comms] -> [Who Active Go Online] 선택하십시오.
 
-사진첨부
+![PLC-ML](./1.PLC-ML-1.png)
 
 [Create New File] 클릭하면 접속 완료 됩니다.
 
-사진첨부
+![PLC-create](./1.PLC-create-1.png)
 
 접속된 PLC에 사용할 Tag를 정의하고 등록합니다.
 
@@ -35,18 +40,17 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
 
 ### 1.2 EdgeHub 설정
 1. 채널 추가
-    1. Field Device 트리에서 Field Device를 클릭 후, 추가 버튼을 누르면 추가할 채널의 드라이버를 선택하는 화면이 열립니다. 
+   
+    자세한 사용법은  [매뉴얼의 Pages-필드디바이스-채널추가](http://localhost:4000/docs/pages/field-device/#31-%EC%B1%84%EB%84%90-%EC%B6%94%EA%B0%80)를 참고해 주세요
 
-        사진첨부
+    - 채널추가 리스트에서 “ABEthernetIP”를 선택한 후 “확인” 버튼을 누릅니다. 
 
-    2. 채널추가 리스트에서 “ABEthernetIP”를 선택한 후 “확인” 버튼을 누릅니다. 
-
-사진첨부
+  ![channel-add](./1.channel-add-2.png)
 
 2. Control/CompactLogix 시리즈
     1. 채널 속성 설정
 
-        사진첨부
+        ![channel-att](./1.channel-att-2.png)
 
         - 채널명 : 통신채널 이름을 입력합니다. 
         - 채널설명 : 통신채널 설명을 입력합니다.
@@ -57,13 +61,12 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
         - 저장 : 저장 버튼을 누르면, 설정된 통신 채널 정보가 저장되고 상단의 채널 리스트에 표시 됩니다.
 
     2. 디바이스 추가   
-     Field Device 트리에서 추가한 ABEthernetIP 채널을 클릭 후, 추가 버튼을 누르면 디바이스를 추가할 수 있는 화면이 열립니다. 
-
-        사진첨부
+     
+       자세한 사용법은  [매뉴얼의 Pages-필드디바이스-디바이스 추가](http://localhost:4000/docs/pages/field-device/#41-%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4-%EC%B6%94%EA%B0%80)를 참고해 주세요
 
     3. 디바이스 속성 설정
 
-        사진첨부
+        ![device-add](./1.device-add-2.png)
          
         - 디바이스 명 : 디바이스 이름을 입력합니다. 
         - 디바이스 설명 : 디바이스 설명을 입력합니다.
@@ -80,14 +83,12 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
         - 저장 : 저장하면 메인 화면의 디바이스 트리에 디바이스가 추가됩니다. 메인 화면의 태그 리스트에는 디바이스 관련 시스템 태그들이 자동으로 추가 됩니다.
 
     4. Block 추가
-     ABBEthernetIP 디바이스를 선택 후, 추가를 클릭합니다. 
-       
-       사진첨부
+      자세한 사용법은  [매뉴얼의 Pages-필드디바이스-블록 추가](http://localhost:4000/docs/pages/field-device/#51-%EB%B8%94%EB%A1%9D-%EC%B6%94%EA%B0%80)를 참고해 주세요
     
     5. Block 설정
      디바이스 속성을 저장하면 Block 설정을 할 수 있습니다.
 
-       사진첨부
+       ![block-add](./1.block-add-2.png)
      
        - 블록번호 : Block의 고유 번호 입니다. 각각의 Block은 서로 다른 Block 번호를 지정해 주어야 합니다.
        - Block 설명 : Block 설명을 입력합니다.
@@ -102,7 +103,6 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
        - 저장 : 저장 버튼을 누르면, 설정된 Block 정보가 저장이 되고, 상단의 블록 리스트에 추가 됩니다. ● 삭제 : 삭제 버튼을 누르면, 현재 선택된 Blcok이 삭제됩니다.
 
 
-        사진첨부
     
     6. 입출력 주소
         - 형식
@@ -127,7 +127,7 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
         - 예1) BOOL Array Type의 통신 블록 설정 및 입출력 주소 입력   
          RS Logix 5000 에서 BOOL형의 Array 타입 태그 BOOL0을 BOOL0[0]부터 BOOL0[49]까지 50개를 설정하였다면, 통신블록에 아래와 같이 입력합니다.
 
-          사진첨부
+          ![block-att](./1.block-att-2.png)
 
          ※ [주의] 시작 어드레스는 반드시 32의 배수가 되어야 합니다   
           예) TEST_1[0], TEST_1[32], TEST_1[512]
@@ -135,7 +135,7 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
         - 예2) INT Array Type의 통신 블록 설정 및 입출력 주소 입력
          RS Logix 5000 에서 INT형의 Array 타입의 태그 N125[0]부터 N125[49]까지 50개를 설정하였다면,  통신블록에 아래와 같이 입력합니다.
 
-          사진첨부
+          ![block-att2](./1.block-att2-2.png)
 
         - 입출력 주소 예 
          BOOL0[0], BOOL0[1], BOOL0[30], BOOL0[31]
@@ -149,11 +149,11 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
      PLC CPU 종류를 “slc500/Micro”로 선택 합니다.   
      나머지 속성은 	Control/CompactLogix 시리즈의 디바이스 속성과 동일합니다.
 
-     사진첨부
+     ![device-mod](./1.device-mod-2.png)
 
     3. Block 추가
 
-          사진첨부
+          ![block-att3](./1.block-att3-2.png)
 
         - 블록번호 : Block의 고유 번호 입니다. 각각의 Block은 서로 다른 Block 번호를 지정해 주어야 합니다.
         - Block 설명 : Block 설명을 입력합니다.
@@ -187,7 +187,7 @@ RSLogix500(또는 RS Logix Micro) 프로그램을 실행 후 상단 메뉴 [Comm
                 - 블록 시작주소: F8:0  (블록 시작주소는 WORD 타입으로 설정하여야 합니다.)
                 - 데이터 수: 10        (Float 타입의 경우에는 x2를 하여야 합니다. [예] 5 x 2 = 10 )
 
-                사진첨부
+                ![block-att4](./1.block-att4-2.png)
 
     4. 입출력 주소           
      slc500 및 Mirco Logix 의 주소 형식 중에서 지원하는 태그의 입출력 주소 형식은 아래와 같습니다.
