@@ -16,7 +16,7 @@ DataWorX 내 활동 로그를 확인할 수 있는 페이지입니다.
 ![Project Log - Nav.]({{ site.url }}/docs/pages/project/log/project-log-nav.png)
 
 ## 로그 목록
-- 페이지 진입 시 날짜 범위는 오늘로 설정됩니다. 
+페이지 진입 시 날짜 범위는 오늘로 설정됩니다. 
 
 ![Project Log]({{ site.url }}/docs/pages/project/log/project-log.png)
 

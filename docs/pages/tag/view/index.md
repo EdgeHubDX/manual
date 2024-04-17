@@ -15,7 +15,7 @@ nav_order: 2
 
 
 ## 물리적 보기(Physical)  
-- 태그의 이름과 상관없이 물리적으로 디바이스에 연결된 형태로 보여주는 형식입니다.  
+태그의 이름과 상관없이 물리적으로 디바이스에 연결된 형태로 보여주는 형식입니다.  
 
 ![TAG_PYHSICAL]({{ site.url }}/docs/pages/tag/view/tagphysical-2.png)
 
