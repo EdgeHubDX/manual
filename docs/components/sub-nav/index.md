@@ -35,6 +35,6 @@ nav_order: 4
 
 
 ## 엔티티 메뉴
-- 엔티티의 하위 아이템을 추가하거나 해당 엔티티를 수정/삭제 할 수 있습니다.
+엔티티의 하위 아이템을 추가하거나 해당 엔티티를 수정/삭제 할 수 있습니다.
 
 ![Sub Navigation - Menu]({{ site.url }}/docs/components/sub-nav/sub-nav-item-menu.png)

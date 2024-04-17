@@ -34,8 +34,7 @@ nav_order: 16
 
 
 ### 태그 상태
-- 
-- 태그 상태에 대한 내용은 다음과 같습니다.
+태그 상태에 대한 내용은 다음과 같습니다.
 
 | 상태                         | 설명 |
 | :--------------------------- | :-- |
@@ -52,11 +51,11 @@ nav_order: 16
 
 
 ### 업데이트 시간
-- 태그 값이 업데이트된 시간을 나타냅니다.
+태그 값이 업데이트된 시간을 나타냅니다.
 
 
 ## 태그 정보
-- 테이블의 태그 아이템에 마우스를 올리면 태그 이름 컬럼의 우측에 `OPEN` 버튼이 나타납니다. 버튼을 클릭하면 우측 패널에서 태그 정보를 확인할 수 있습니다.
+테이블의 태그 아이템에 마우스를 올리면 태그 이름 컬럼의 우측에 `OPEN` 버튼이 나타납니다. 버튼을 클릭하면 우측 패널에서 태그 정보를 확인할 수 있습니다.
 
 ![Monitoring - Panel Open Button]({{ site.url }}/docs/pages/monitoring/monitoring-panel-open-button.png) 
 
@@ -81,7 +80,7 @@ nav_order: 16
 |Deadband|  태그정보의 종류가 Analog일 때만 표시되며, Analog 상세의 소수점 DeadBand값을 표시됩니다.|
 
 ## 태그값 제어
-- 태그 정보 패널에서 태그 정보 카드의 우측 하단에 있는 `태그값 변경` 텍스트 버튼을 클릭하면 태그값을 변경할 수 있습니다.
+태그 정보 패널에서 태그 정보 카드의 우측 하단에 있는 `태그값 변경` 텍스트 버튼을 클릭하면 태그값을 변경할 수 있습니다.
 
 ![Monitoring - Tag Value Edit Button]({{ site.url }}/docs/pages/monitoring/monitoring-tag-value-edit-button.png) 
 

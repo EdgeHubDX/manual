@@ -16,7 +16,7 @@ nav_order: 7
 
 
 ## 툴바
-- 테이블을 관리하고 조작할 수 있는 도구 모음입니다.
+테이블을 관리하고 조작할 수 있는 도구 모음입니다.
 
 ![Table - Toolbar]({{ site.url }}/docs/components/table/table-toolbar.png)
 
@@ -25,25 +25,25 @@ nav_order: 7
 
 
 ### COLUMNS
-- 컬럼을 숨기거나 나타나게 할 수 있습니다. 
+컬럼을 숨기거나 나타나게 할 수 있습니다. 
 
 ![Table - Toolbar - Column]({{ site.url }}/docs/components/table/table-toolbar-column.png)
 
 
 ### FILTERS
-- 컬럼의 특정 조건에 따라 데이터를 필터링 할 수 있습니다. 
+컬럼의 특정 조건에 따라 데이터를 필터링 할 수 있습니다. 
 
 ![Table - Toolbar - Filter]({{ site.url }}/docs/components/table/table-toolbar-filter.png)
 
 
 ### DENSITY
-- 로우의 높이를 조절할 수 있습니다.
+로우의 높이를 조절할 수 있습니다.
 
 ![Table - Toolbar - Density]({{ site.url }}/docs/components/table/table-toolbar-density.png)
 
 
 ### 잠금 기능
-- 아이템 상세보기 버튼을 사용하여 오픈된 우측 패널의 속성 수정 여부를 결정합니다. 
+아이템 상세보기 버튼을 사용하여 오픈된 우측 패널의 속성 수정 여부를 결정합니다. 
 - Lock: 아이템의 정보를 나타냅니다.
 - Edit: 아이템의 속성을 수정할 수 있습니다.
 
@@ -52,7 +52,7 @@ nav_order: 7
 
 
 ### 검색필드
-- 테이블의 데이터를 검색어에 따라 필터링합니다.
+테이블의 데이터를 검색어에 따라 필터링합니다.
 
 ![Table - Toolbar - Search]({{ site.url }}/docs/components/table/table-toolbar-search.png)
 
@@ -65,7 +65,7 @@ nav_order: 7
 
 
 ### 기타 아이템
-- 테이블의 아이템 추가를 위한 버튼 또는 기타 정보를 포함할 수 있습니다.
+테이블의 아이템 추가를 위한 버튼 또는 기타 정보를 포함할 수 있습니다.
 
 
 
@@ -111,7 +111,7 @@ nav_order: 7
 ## 로우 (행)
 
 ### 열 정렬
-- 데이터를 오름차순(ASC) 또는 내림차순(DESC)으로 정렬할 수 있습니다. 
+데이터를 오름차순(ASC) 또는 내림차순(DESC)으로 정렬할 수 있습니다. 
 
 ![Table - Sorting]({{ site.url }}/docs/components/table/table-sorting.png)
 
@@ -132,12 +132,12 @@ nav_order: 7
 
 
 ### 하위 아이템 목록
-- 아이템이 하위 아이템을 가진 경우 해당 목록 페이지로 이동할 수 있습니다.
+아이템이 하위 아이템을 가진 경우 해당 목록 페이지로 이동할 수 있습니다.
 
 ![Table - Row Naviting]({{ site.url }}/docs/components/table/table-title-cell.png)
 
 ### 로우 메뉴
-- 아이템을 수정/삭제/복제 하거나 하위 아이템을 추가할 수 있습니다.
+아이템을 수정/삭제/복제 하거나 하위 아이템을 추가할 수 있습니다.
 
 ![Table - Row Menu]({{ site.url }}/docs/components/table/table-row-menu.png)
 
@@ -146,7 +146,7 @@ nav_order: 7
 
 
 ### 전체 로우 수
-- 전체 로우 수는 테이블의 우측 하단에 표기됩니다.
+전체 로우 수는 테이블의 우측 하단에 표기됩니다.
 
 
 
@@ -160,7 +160,7 @@ nav_order: 7
 
 
 ### 아이템 다중 선택
-- 아이템은 다음과 같은 방법으로 다중 선택 가능합니다.
+아이템은 다음과 같은 방법으로 다중 선택 가능합니다.
 
 | Keys                      | Description          |
 | :------------------------ | :---------------- |

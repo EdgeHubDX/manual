@@ -35,7 +35,7 @@ nav_order: 3
 
 
 ## 경로 삭제
-- 경로 목록의 메뉴 버튼을 클릭하면 경로를 삭제할 수 있습니다. 
+경로 목록의 메뉴 버튼을 클릭하면 경로를 삭제할 수 있습니다. 
 
 ![Project Path - Delete]({{ site.url }}/docs/pages/project/path/project-path-delete.png)
 

@@ -17,7 +17,7 @@ nav_order: 2
 
 
 ## 서버태그 목록
-- 현재 서버에 추가된 태그를 나타냅니다. 
+현재 서버에 추가된 태그를 나타냅니다. 
 
 ![Server Tag List]({{ site.url }}/docs/pages/server/tag/server-tags.png)
 
