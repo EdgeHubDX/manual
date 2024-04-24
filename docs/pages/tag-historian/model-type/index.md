@@ -13,8 +13,9 @@ nav_order: 1
 
 | 수집모델 종류     | 설명 |
 |----------|----|
-|정주기 | 일정한 주기마다 태그 값을 수집합니다.|
+|정주기 | 일정한 주기마다 아날로그, 디지털 태그 값을 수집합니다.|
 |통계값 | 설정한 태그에 대한 통계 데이터를 주기마다 생성합니다.|
+|문자열 | 일정한 주기마다 문자열 태그 값을 수집합니다.|
 
 수집모델의 종류에 따른 보고서 및 트랜드 등에서 조회 가능 데이터의 종류는 아래와 같습니다.  
 
@@ -22,6 +23,7 @@ nav_order: 1
 |----------|----|
 |정주기 | 아날로그(현재값), 디지털(현재상태)|
 |통계값 | 아날로그(현재값, 최소값, 최소시간, 최대값, 최대시간, 평균값), 디지털(가동 횟수, 가동 시간, 변경 횟수) |
+|문자열 | 문자열(현재값)|
 
 
 - TOC
@@ -58,11 +60,27 @@ nav_order: 1
 |일|1 ~ 31|
 |월| 1 ~ 12|
 
-## 수집모델 저장기한
-수집모델의 저장기한은 외부 설정 파일로 설정할 수 있습니다. `DataWorX 설치경로\Project\Project명\Config\ehTagHistorian.ini`파일을 열어보면, `MAINTAIN_SETTING` 설정이 있습니다.  
-각 설정값에 의해 각각의 데이터를 얼마나 저장할지 설정할 수 있습니다.  
+## 문자열
+최소 수집주기는 `1초`로써 빠른 리얼타임성 `데이터 로깅`에 사용되며, 조회 가능한 데이터는 `현재값(문자열)`을 조회할 수 있습니다.  
+`런타임 운전시, 문자열 수집모델은 정시`에 수집하여 저장합니다.  
+예) 수집주기를 2초로 설정하였을 경우, 매 0, 2, 4초, …, 등 정시에 로깅데이터로 저장합니다.  
 
-| 설정 키     | 수집타입 | 수집모델 단위 | 수집모델 저장기한 단위 |
+`수집 주기 설정`: 주기와 단위를 선택합니다. 각 단위마다 선택 가능한 주기는 다음과 같습니다.  
+
+| 단위     | 선택 가능한 주기 |
+|----------|----|
+|초|1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30|
+|분|1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30|
+|시|1, 2, 3, 4, 5, 6, 10, 12|
+|일|1|
+
+## 수집모델 저장기간 및 삭제기한
+수집모델의 저장기간 및 삭제기한은 외부 설정 파일로 설정할 수 있습니다. `DataWorX 설치경로\Project\Project명\Config\ehTagHistorian.ini`파일을 열어보면, `MAINTAIN_SETTING`과 `DELETE_SETTING` 설정이 있습니다.  
+각 설정값에 의해 각각의 데이터를 어느 기간동안 저장할지, 어느 기간이 지나면 삭제할지 설정할 수 있습니다.(0은 사용안함입니다.)  
+
+### MAINTAIN_SETTING
+
+| 설정 키     | 수집타입 | 수집모델 단위 | 수집모델 저장기간 단위 |
 |----------|----|----|----|
 |PERIODIC_SEC_MAINTAIN_PERIOD|	정주기|	초|	일|
 |PERIODIC_MIN_MAINTAIN_PERIOD|	정주기|	분|	월|
@@ -73,9 +91,36 @@ nav_order: 1
 |STATISTICS_HOUR_MAINTAIN_PERIOD|	통계|	시|	월|
 |STATISTICS_DAY_MAINTAIN_PERIOD|	통계|	일|	연|
 |STATISTICS_MONTH_MAINTAIN_PERIOD|	통계|	월|	연|
+|STRING_SEC_MAINTAIN_PERIOD|	문자열|	초|	일|
+|STRING_MIN_MAINTAIN_PERIOD|	문자열|	분|	월|
+|STRING_HOUR_MAINTAIN_PERIOD|	문자열|	시|	월|
+|STRING_DAY_MAINTAIN_PERIOD|	문자열|	일|	연|
 
 예를들어, `PERIODIC_MIN_MAINTAIN_PERIOD`의 값을 12로 설정할 시, 사용자가 설정한 모든 분단위 수집모델은 월 수로 현재 월 포함 직전 `12개월`치만 조회가 가능합니다.  
-현재가 3월이라면 조회 가능한 데이터는 전년도 4월부터 3월까지의 데이터입니다. 설정값을 초과한 데이터는 별도로 저장됩니다.  
+현재가 3월이라면, 조회 가능한 데이터는 전년도 4월부터 3월까지의 데이터입니다. 설정값을 초과한 데이터는 별도로 저장됩니다.  
+
+### DELETE_SETTING
+
+| 설정 키     | 수집타입 | 수집모델 단위 | 수집모델 삭제기한 단위 |
+|----------|----|----|----|
+|PERIODIC_SEC_DELETE_PERIOD|	정주기|	초|	일|
+|PERIODIC_MIN_DELETE_PERIOD|	정주기|	분|	월|
+|PERIODIC_HOUR_DELETE_PERIOD|	정주기|	시|	월|
+|PERIODIC_DAY_DELETE_PERIOD|	정주기|	일|	연|
+|STATISTICS_1MIN_DELETE_PERIOD|	통계|	분|	월|
+|STATISTICS_NMIN_DELETE_PERIOD|	통계|	분|	월|
+|STATISTICS_HOUR_DELETE_PERIOD|	통계|	시|	월|
+|STATISTICS_DAY_DELETE_PERIOD|	통계|	일|	연|
+|STATISTICS_MONTH_DELETE_PERIOD|	통계|	월|	연|
+|STRING_SEC_DELETE_PERIOD|	문자열|	초|	일|
+|STRING_MIN_DELETE_PERIOD|	문자열|	분|	월|
+|STRING_HOUR_DELETE_PERIOD|	문자열|	시|	월|
+|STRING_DAY_DELETE_PERIOD|	문자열|	일|	연|
+
+예를들어, `PERIODIC_MIN_DELETE_PERIOD`의 값을 5로 설정할 시, MAINTAIN_PERIOD에서 설정값을 초과해 별도로 저장된 데이터는 5개월까지만 저장되고, 그 이전 데이터는 DB에서 완전 삭제됩니다.  
+현재가 4월이고 `PERIODIC_MIN_MAINTAIN_PERIOD`의 값이 6, `PERIODIC_MIN_DELETE_PERIOD`의 값이 5라면, 조회 가능한 데이터는 전년도 11월 까지의 6개월치 데이터이고, 별도로 저장되는 데이터는 전년도 10월부터 6월까지의 데이터입니다. 전년도 5월 이전의 데이터는 `PERIODIC_MIN_DELETE_PERIOD` 설정값에 따라 DB에서 완전 삭제되게 됩니다.  
+  
+설정값을 사용하길 원하지 않는다면, 저장기간과 삭제기한을 수집모델에 따라 각각 설정값을 0으로 둬서 사용하지 않을 수 있습니다. 하지만 저장기간을 사용하지 않거나 너무 크게 설정하는 경우 및 삭제기한을 설정하지 않는 경우에는, 태그이력의 데이터 사이즈가 너무 커져 원하는 성능이 나오지 않을 수 있으니 사용에 유의해야 합니다.  
 
 수집모델의 저장경로는 사용자가 PostgreSQL을 설치할 당시, 설정한 datadir 경로입니다. DataWorX에서는 기본적으로 `C:\DataWorX\bin\Historian\pgData`를 사용합니다.
 
