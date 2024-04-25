@@ -47,6 +47,10 @@
       padding-left: 0.8em;
     }
 
+    li a {
+      word-break: keep-all;
+    }
+
     li::before {
       display: none;
     }
