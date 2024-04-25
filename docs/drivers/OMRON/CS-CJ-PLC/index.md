@@ -10,8 +10,8 @@ nav_order: 1
 # Omron: CS/CJ PLC
 - TOC
 {:toc}
-## 1. 결선도
-### 1.1 링크방식: Serial
+## 결선도
+### 링크 방식: Serial
 RS-232C 결선은 다음과 같습니다.
 
 ![RS-232C]({{ site.url }}/docs/drivers/OMRON/CS-CJ-PLC/RS-232C-1.png)
@@ -39,7 +39,7 @@ OMRON의 Host Link 프로토콜은 4선식 결선법만 제공하고 2선식 결
 >2. 용어 설명    
 >☞ Host Link는 호스트 PC와 OMRON PLC 간의 연결을 말하며, EdgeHub는 이 방식을 사용하여 OMRON PLC와 통신을 합니다.   
 
-### 1.2 링크 방식: Ethernet
+### 링크 방식: Ethernet
 1. 이더넷 결선
 이더넷을 통해 아래와 같이 2가지 형태로 연결할 수 있습니다.
 
@@ -71,8 +71,8 @@ OMRON의 Host Link 프로토콜은 4선식 결선법만 제공하고 2선식 결
 >☞ UTP 케이블은 단선 재질이므로 무리하게 케이블을 꺾거나 흔들면 케이블이 끊어지거나 특성이 나빠질 수 있습니다.    
 >☞ 케이블 제작 시 플러그 커버(Plug Cover) 사용을 권장합니다.   
 
-## 2. 통신드라이버 설정
-### 2.1 링크 방식:Serial 
+## 통신드라이버 설정
+### 링크 방식: Serial 
 1. PLC 설정
 PLC의 통신 파라미터는 CX-Programmer에서 설정합니다. 자세한 내용은 OMRON 통신 사용설명서를 참조 바랍니다. 여기서는 간단한 통신 설정 방법에 대해 설명 드리겠습니다.
 
@@ -107,7 +107,7 @@ c. 기본적인 통신 설정은 위의 그림과 같으나 통신설정을 임�
 >2. 통신 상태 확인    
 >☞ PLC 이더넷 모듈에 SD, RD LED가 있습니다. 정상적으로 통신이 이루어지면 LED가 빠르게 점멸합니다.   
 
-2.	EdgeHub 설정: OmronS
+2.EdgeHub 설정: OmronS
     1. 채널 추가
         자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
 
@@ -197,7 +197,7 @@ c. 기본적인 통신 설정은 위의 그림과 같으나 통신설정을 임�
     |EM0~EM7	|EM Area	|WORD|		0~9999|0~9999|-|	　	AI : EM0_xxxxx (xxxxx는 0~32767 의 십진수)  EM0_9000 DI : EM0_xxxxx0~F(xxxxx는 0~32767의 십진수)   EM0_7000A|
     |EM8~EMC	|EM Area	|WORD|		0~9999|	-|-|　	AI : EMA_xxxxx (xxxxx는 0~32767 의 십진수)  EMA_9000 DI : EMA_xxxxx0~F(xxxxx는 0~32767의 십진수)  EMA_7000A|
 
-### 2.2 링크 방식:Ethernet
+### 링크 방식: Ethernet
 1. PLC 설정
 PLC의 통신 파라미터는 CX-Programmer에서 설정합니다. 자세한 내용은 OMRON 통신 사용설명서를 참조 바랍니다. 여기서는 간단한 통신 설정 방법에 대해 설명 드리겠습니다.
 
@@ -329,7 +329,7 @@ PLC의 통신 파라미터는 CX-Programmer에서 설정합니다. 자세한 내
     |EM0~EM7	|EM Area	|WORD|		0~9999|0~9999|-|	　	AI : EM0_xxxxx (xxxxx는 0~32767 의 십진수)  EM0_9000 DI : EM0_xxxxx0~F(xxxxx는 0~32767의 십진수)   EM0_7000A|
     |EM8~EMC	|EM Area	|WORD|		0~9999|	-|-|　	AI : EMA_xxxxx (xxxxx는 0~32767 의 십진수)  EMA_9000 DI : EMA_xxxxx0~F(xxxxx는 0~32767의 십진수)  EMA_7000A|
 
-## 3. 사용 가능 디바이스
+## 사용 가능 디바이스
 사용 가능한 디바이스는 통신드라이버의 입출력 주소를 참고하시기 바랍니다. 
 
 {:.note}

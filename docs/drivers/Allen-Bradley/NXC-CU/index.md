@@ -11,23 +11,23 @@ nav_order: 2
 - TOC
 {:toc}
 
-## 1. 결선도
+## 결선도
 RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
-### 1.1 RS-232C
+### RS-232C
  
  ![RS-232C]({{ site.url }}/docs/drivers/Allen-Bradley/NXC-CU/RS-232C-1.png)
 
-### 1.2 RS-485
+### RS-485
 
  ![RS-485]({{ site.url }}/docs/drivers/Allen-Bradley/NXC-CU/RS-485-2.png)
 
  {:.note}
 >WinFPST 로더 케이블을 사용하여 통신이 안될 수 있습니다. 
 
-## 2. 통신드라이버 설정
+## 통신드라이버 설정
 RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 
-### 2.1 PLC 설정
+### PLC 설정
 1. CPU 상의 COM포트 이용 시
 
     ![PLC-set]({{ site.url }}/docs/drivers/Allen-Bradley/NXC-CU/PLC-set-1.png)
@@ -54,7 +54,7 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 
     ![PLC-DSW-1]({{ site.url }}/docs/drivers/Allen-Bradley/NXC-CU/PLC-DSW-1.png)
 
-### 2.2 EdgeHub 설정
+### EdgeHub 설정
 1. 채널 추가
     
     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요

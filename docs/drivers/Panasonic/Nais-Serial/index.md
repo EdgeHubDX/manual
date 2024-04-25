@@ -10,8 +10,9 @@ nav_order: 1
 # Panasonic: Nais(FP 시리즈) Serial
 - TOC
 {:toc}
-## 1. 통신 드라이버 설정
-### 1.1 EdgeHub 설정
+
+## 통신 드라이버 설정
+### EdgeHub 설정
 1. 채널 추가
     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
 
@@ -76,7 +77,7 @@ nav_order: 1
     - 삭제 : 삭제 버튼을 누르면, 현재 선택된 Blcok이 삭제됩니다.   
 
 
-7. 	입출력 주소
+7. 입출력 주소
 - 형식
 - 아날로그 입력Address 사용예제
     DT100 	: DT영역의 100번째 Word값을 가져온다.

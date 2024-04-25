@@ -10,8 +10,9 @@ nav_order: 4
 # OPC UA Client
 - TOC
 {:toc}
-## 1. 통신 드라이버 설정
-### 1.1 EdgeHub 설정
+
+## 통신 드라이버 설정
+### EdgeHub 설정
 1. 채널 추가
     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
 
