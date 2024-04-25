@@ -1,18 +1,18 @@
 {% if site.search_enabled != false %}
 <script
   type="text/javascript"
-  src="{{ '/assets/js/vendor/lunr.min.js' | absolute_url }}"
+  src="{{ site.url }}/assets/js/vendor/lunr.min.js"
 ></script>
 <script
   type="text/javascript"
-  src="{{ '/assets/js/vendor/lunr.multi.min.js' | absolute_url }}"
+  src="{{ site.url }}/assets/js/vendor/lunr.multi.min.js"
 ></script>
 <script
   type="text/javascript"
-  src="{{ '/assets/js/vendor/lunr.stemmer.support.min.js' | absolute_url }}"
+  src="{{ site.url }}/assets/js/vendor/lunr.stemmer.support.min.js"
 ></script>
 <script
   type="text/javascript"
-  src="{{ '/assets/js/vendor/lunr.ko.min.js' | absolute_url }}"
+  src="{{ site.url }}/assets/js/vendor/lunr.ko.min.js"
 ></script>
 {% endif %}
