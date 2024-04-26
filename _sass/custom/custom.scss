@@ -146,7 +146,6 @@
 }
 
 
-
 // pdf
 
 .pdf {
@@ -293,3 +292,23 @@
 }
 
 // ---
+
+
+// home
+.home-container {
+  margin-top: -60px;
+
+  .pdf-title {
+    margin-top: 60px;
+
+    h1 {
+      font-size: 64px !important;
+    }
+
+  }
+
+  .pdf-cover-img {
+    margin: 40px auto;
+  }
+
+}
