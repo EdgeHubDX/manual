@@ -157,7 +157,7 @@ nav_order: 4
         - DELETE: 특정 리소스의 삭제를 요청하는데 사용
         - HEAD: 웹 서버 다운 여부 또는 웹 서버 정보 확인을 위해 사용, 웹 서버는 헤더만 전송한다.
     - URL: 노드 설정에서 url 프로퍼티를 지정할 경우, mustache 형식의 태그를 포함할 수 있습니다.  
-        예를 들어 url이 {% raw %} example.com/{{{topic}}} {% endraw %}인 경우, msg.topic의 값에 의해 치환작업을 자동적으로 실행합니다.
+        예를 들어 url이 {% raw %} example.com/\{\{\{topic\}\}\} {% endraw %}인 경우, msg.topic의 값에 의해 치환작업을 자동적으로 실행합니다.
     - 페이로드: 입력 payload를 처리하는 방법을 설정합니다.
         - Ignore: 페이로드를 전송하지 않습니다.
         - Append to query-string paremeters: 쿼리 스트링 파라미터에 붙여 전송합니다.

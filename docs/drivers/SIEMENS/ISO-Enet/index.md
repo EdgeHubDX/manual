@@ -103,7 +103,7 @@ Siemens PLC은 전용 프로그램인 ‘SIMATIC Manager’를 이용하여 설�
 ### EdgeHub 설정
 SiemensISOEnet 통신드라이버는 지멘스의 ‘ISO on TCP’ 프로토콜의 Client로 동작합니다. 따라서 PLC는 ISO On TCP서버로 동작해야 하며, 이더넷 카드가 이를 지원하는지 먼저 확인해야 합니다. 사용이 가능한 경우 채널 설정에서 SiemensISOEnet 드라이버를 선택하고 아래와 같이 설정합니다.
 1. 채널 추가
-    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
     채널추가 리스트에서 “SiemenSISOEnet”를 선택한 후 “확인” 버튼을 누릅니다.
 
@@ -123,7 +123,7 @@ SiemensISOEnet 통신드라이버는 지멘스의 ‘ISO on TCP’ 프로토콜�
 
 
 3. Device 추가
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
 4. Device 속성 설정
 
@@ -146,7 +146,7 @@ SiemensISOEnet 통신드라이버는 지멘스의 ‘ISO on TCP’ 프로토콜�
 
 
 5. Block 추가
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
 6. Block 속성 설정
     ![block-att]({{ site.url }}/docs/drivers/SIEMENS/ISO-Enet/block-att-2.png) 

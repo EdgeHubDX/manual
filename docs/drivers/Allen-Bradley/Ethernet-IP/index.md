@@ -42,7 +42,7 @@ Control/CompactLogix 시리즈에서는 RSLogix5000 프로그램을 이용하여
 ## EdgeHub 설정
 ### 채널 추가
    
-자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
 - 채널추가 리스트에서 “ABEthernetIP”를 선택한 후 “확인” 버튼을 누릅니다. 
 
@@ -61,7 +61,7 @@ Control/CompactLogix 시리즈에서는 RSLogix5000 프로그램을 이용하여
     - 저장 : 저장 버튼을 누르면, 설정된 통신 채널 정보가 저장되고 상단의 채널 리스트에 표시 됩니다.
 
 2. 디바이스 추가   
-  자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+  자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
 3. 디바이스 속성 설정  
   ![device-add]({{ site.url }}/docs/drivers/Allen-Bradley/Ethernet-IP/device-add-2.png)
@@ -81,7 +81,7 @@ Control/CompactLogix 시리즈에서는 RSLogix5000 프로그램을 이용하여
     - 저장 : 저장하면 메인 화면의 디바이스 트리에 디바이스가 추가됩니다. 메인 화면의 태그 리스트에는 디바이스 관련 시스템 태그들이 자동으로 추가 됩니다.
 
 4. Block 추가
-  자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+  자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
 5. Block 설정  
   디바이스 속성을 저장하면 Block 설정을 할 수 있습니다.  

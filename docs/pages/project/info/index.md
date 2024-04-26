@@ -15,4 +15,4 @@ nav_order: 4
 ![Project Info]({{ site.url }}/docs/pages/project/info/project-info.png)
 
 {: .highlight }
-프로젝트 속성에 관한 정보는 [프로젝트 추가 페이지]({{ site.url }}/docs/pages/project/add/#프로젝트-속성)를 참고 바랍니다.
+프로젝트 속성에 관한 정보는 [프로젝트 추가 페이지]({{ site.url }}/docs/pages/project/add/index.html#프로젝트-속성)를 참고 바랍니다.

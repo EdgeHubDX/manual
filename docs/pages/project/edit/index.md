@@ -15,7 +15,7 @@ nav_order: 5
 ![Project Info - Edit]({{ site.url }}/docs/pages/project/edit/project-edit.png)
 
 {: .highlight }
-프로젝트 속성에 관한 정보는 [프로젝트 추가 페이지]({{ site.url }}/docs/pages/project/add/#프로젝트-속성)를 참고 바랍니다.
+프로젝트 속성에 관한 정보는 [프로젝트 추가 페이지]({{ site.url }}/docs/pages/project/add/index.html#프로젝트-속성)를 참고 바랍니다.
 
 {: .note }
-프로젝트의 생성자, 패키지명, 경로는 변경 불가하며, 프로젝트 명은 프로젝트 목록 페이지에서 수정할 수 있습니다.(참고 - [프로젝트 명 변경]({{ site.url }}/docs/pages/project/list/#프로젝트-명-변경))
+프로젝트의 생성자, 패키지명, 경로는 변경 불가하며, 프로젝트 명은 프로젝트 목록 페이지에서 수정할 수 있습니다.(참고 - [프로젝트 명 변경]({{ site.url }}/docs/pages/project/list/index.html#프로젝트-명-변경))

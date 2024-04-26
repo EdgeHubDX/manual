@@ -57,7 +57,7 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 ### EdgeHub 설정
 1. 채널 추가
     
-    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
 
     - 채널추가 리스트에서 “NXCCU”를 선택한 후 “확인” 버튼을 누릅니다. 
@@ -81,7 +81,7 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 
 3. 디바이스 추가 
   
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
 
 4. 디바이스 속성 설정
@@ -96,7 +96,7 @@ RS-232C, RS485 접속 방법으로 NX-CCU와 접속 합니다.
 
 5. Block 추가
    
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
 6. Block 설정
     디바이스 속성을 저장하면 Block 설정을 할 수 있습니다. 

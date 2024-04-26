@@ -154,7 +154,7 @@ QJ71C24N-4R(RS-422) 결선 도는 다음과 같습니다.
 
 2. EdgeHub 설정: MelsecQ Serial
    1. 채널 추가
-    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
     채널추가 리스트에서 “MelsecQSerial”를 선택한 후 “확인” 버튼을 누릅니다.
 
@@ -177,7 +177,7 @@ QJ71C24N-4R(RS-422) 결선 도는 다음과 같습니다.
 
 
     3. Device 추가
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
     4. Device 속성 설정
 
@@ -193,7 +193,7 @@ QJ71C24N-4R(RS-422) 결선 도는 다음과 같습니다.
     >☞ EdgeHub는 MelsecQ PLC와 통신 할 때 QnA호환 4C 프레임 형식1 을 사용합니다.
 
     5. Block 추가
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
     6. Block 속성 설정
 
@@ -325,7 +325,7 @@ QJ71C24N-4R(RS-422) 결선 도는 다음과 같습니다.
 
 2. EdgeHub 설정:MelsecQ Ethernet
     1. 채널 추가
-    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
     채널추가 리스트에서 “MelsecQEnet”를 선택한 후 “확인” 버튼을 누릅니다.
 
@@ -345,7 +345,7 @@ QJ71C24N-4R(RS-422) 결선 도는 다음과 같습니다.
 
 
     3. Device 추가
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
     4. Device 속성 설정
 
@@ -381,7 +381,7 @@ QJ71C24N-4R(RS-422) 결선 도는 다음과 같습니다.
     >☞ EdgeHub는 MelsecQ PLC와 통신 할 때 QnA호환 3E 프레임을 사용합니다.
 
     5. Block 추가
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
     6. Block 속성 설정
 

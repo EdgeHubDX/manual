@@ -101,7 +101,7 @@ o. “OB1”내의 로더 프로그램 스텝에 FB Block중 “FB7 CP 341”을
 
 ### EdgeHub 설정
 1. 채널 추가
-    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+    자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
     채널추가 리스트에서 “SiemensRK512”를 선택한 후 “확인” 버튼을 누릅니다.
 
@@ -124,7 +124,7 @@ o. “OB1”내의 로더 프로그램 스텝에 FB Block중 “FB7 CP 341”을
 
 
 3. Device 추가
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
 4. Device 속성 설정
 
@@ -138,7 +138,7 @@ o. “OB1”내의 로더 프로그램 스텝에 FB Block중 “FB7 CP 341”을
 
 
 5. Block 추가
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
 6. Block 속성 설정
     ![block-att]({{ site.url }}/docs/drivers/SIEMENS/RK-512/block-att-2.png) 

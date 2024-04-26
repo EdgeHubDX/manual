@@ -140,7 +140,7 @@ K80S/K120S에 Cnet을 사용하기 위해서는 아래와 같이 ‘BUILT_IN CNE
 
 2. EdgeHub 설정: MKCnet
     1. 채널추가
-     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
      채널추가 리스트에서 “MKCnet”를 선택한 후 “확인” 버튼을 누릅니다.
      
@@ -162,7 +162,7 @@ K80S/K120S에 Cnet을 사용하기 위해서는 아래와 같이 ‘BUILT_IN CNE
     - 저장 : 저장 버튼을 누르면, 설정된 통신 채널 정보가 저장되고 상단의 채널 리스트에 표시 됩니다.
 
     3. Device 추가 
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
 
     4. Device 속성 설정
@@ -176,7 +176,7 @@ K80S/K120S에 Cnet을 사용하기 위해서는 아래와 같이 ‘BUILT_IN CNE
     - 저장 : 저장하면 메인 화면의 디바이스 트리에 디바이스가 추가됩니다. 메인 화면의 태그 리스트에는 디바이스 관련 시스템 태그들이 자동으로 추가 됩니다.
 
     5. Block 추가
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
     6. Block 설정
     
@@ -222,7 +222,7 @@ IP주소, 게이트웨이 등 통신 파라미터를 설정하십시오.
 2. EdgeHub 설정: MKEnet
     1. 채널추가
      1. 채널추가
-     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/#채널-추가)를 참고해 주세요
+     자세한 사용법은 [채널 페이지]({{ site.url }}/docs/pages/field-device/channel/index.html/#채널-추가)를 참고해 주세요
 
      채널추가 리스트에서 “MKEnet”를 선택한 후 “확인” 버튼을 누릅니다.
      
@@ -242,7 +242,7 @@ IP주소, 게이트웨이 등 통신 파라미터를 설정하십시오.
 
 
     3. Device 추가 
-    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/#디바이스-추가)를 참고해 주세요
+    자세한 사용법은 [디바이스 페이지]({{ site.url }}/docs/pages/field-device/device/index.html/#디바이스-추가)를 참고해 주세요
 
 
     4. Device 속성 설정
@@ -275,7 +275,7 @@ IP주소, 게이트웨이 등 통신 파라미터를 설정하십시오.
     - 저장 : 저장하면 메인 화면의 디바이스 트리에 디바이스가 추가됩니다. 메인 화면의 태그 리스트에는 디바이스 관련 시스템 태그들이 자동으로 추가 됩니다.
 
     5. Block 추가
-    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/#블록-추가)를 참고해 주세요
+    자세한 사용법은 [블록 페이지]({{ site.url }}/docs/pages/field-device/block/index.html/#블록-추가)를 참고해 주세요
 
     6. Block 설정
 

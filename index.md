@@ -11,5 +11,8 @@ nav_order: 1
 
 ![Home]({{ site.url }}/assets/images/home.png)
 
+<div class="pdf-version">v{{ site.version }}</div>
+<div class="pdf-date">{{ site.updated_at }}</div>
+
 <br />
 <br />
